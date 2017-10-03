@@ -52,5 +52,6 @@ else
             echo "Email to".$dest." is not sent";
         }
     }
-    echo "Email sent."
+    echo "Email sent.";
 }
+?>
