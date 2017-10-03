@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!($_SESSION["access_status"] === "granted")) {
+    $page = "insert_it.php";
+    header("location: login.php?Page=$page");
+}
+?>
 <html>
 <head><title></title></head>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -28,7 +35,7 @@
         <br/>
         <tr>
             <td><input type="submit" value="Insert product"></td>
-            <td><input type="button" value="return to list" OnClick="window.location='example0603.php'"></td>
+            <td><input type="button" value="return to list" OnClick="window.location='single_product.php'"></td>
         </tr>
     </table>
 </form>

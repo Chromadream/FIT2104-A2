@@ -1,5 +1,11 @@
 <?php
     ob_start();
+	
+	if (!($_SESSION["access_status"] === "granted")) {
+		$page = "insert_it.php";
+		header("location: login.php?Page=$page");
+	}
+
 ?>
 
 <?php
@@ -21,7 +27,7 @@ else {
             alert("New product successfully added to database");
         </script>
         <?php
-        header("Location: example0603.php");
+        header("Location: single_product.php");
     } else {
         ?>
         <script language="JavaScript">

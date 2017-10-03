@@ -23,7 +23,7 @@ if (($_SESSION["access_status"] === "granted")) {
 if(empty($_POST["uname"])) 
 { 
 ?> 
-<form method="post" action="example0709.php"> 
+<form method="post" action="login.php"> 
 <input name="redirurl" type="hidden" value="<?php echo $_GET["Page"] ?>">
 
 <table border="0" align="center" width="30%" cellpadding="2" cellspacing="5"> 
@@ -54,7 +54,7 @@ include("connection.php");
 $conn = new mysqli($Host, $UName, $PWord, $DB) 
 or die("Couldn't log on to database"); 
 
-$query="SELECT fname, sname FROM user WHERE username = ? AND password = ?"; 
+$query="SELECT admin_id FROM admin WHERE uname = ? AND passwd = ?"; 
 
 $stmt = mysqli_prepare($conn, $query); 
 
@@ -62,11 +62,11 @@ $stmt->bind_param('ss', $uname,$pword);
 $uname= $_POST["uname"]; 
 $pword = hash('sha256', $_POST["pword"]); 
 $stmt->execute(); 
-$stmt->bind_result($fname, $sname); 
+$stmt->bind_result($admin_id); 
 
 	if(!empty($stmt->fetch())) 
 	{ 
-		echo "Welcome to our site $fname $sname"; 
+		echo "Welcome to our site $uname"; 
 		$_SESSION["access_status"] = "granted";
 		
 		$page_address = $_POST["redirurl"];

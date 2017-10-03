@@ -24,11 +24,11 @@ if (!($_SESSION["access_status"] === "granted")) {
 <div style="width:500px;">
 <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
 <tr class="listheader">
-<td></td>
 <td>Product Name</td>
 <td>Purchase Price</td>
 <td>Sale Price</td>
 <td>Origin</td>
+<td></td>
 </tr>
 <?php
 
@@ -44,13 +44,12 @@ while ($row= $result->fetch_assoc()) {
 	<?php
 }
 ?>
-<tr class="listheader">
-<td colspan="4">
+</table>
 <input name="url" type="hidden" value="list_products.php">
 <input type="button" name="update" value="Update" onClick="setUpdateAction();" /> 
-<input type="button" name="delete" value="Delete"  onClick="setDeleteAction();" /></td>
-</tr>
-</table>
+<input type="button" name="delete" value="Delete"  onClick="setDeleteAction();" />
+
+
 </form>
 </div>
 </body></html>

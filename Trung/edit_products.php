@@ -15,6 +15,7 @@ if ($_POST["url"] !="list_products.php"){
 
 if(isset($_POST["submit"]) && $_POST["submit"]!="") {
 	$productsCount = count($_POST["productName"]);
+
 	for($i=0;$i<$productsCount;$i++) {
 	
 	$query="UPDATE product set product_name='" . $_POST["productName"][$i] . "', product_purchase_price='" . $_POST["productPPrice"][$i] . "', product_sale_price='" . $_POST["productSPrice"][$i] . "', product_country_of_origin='" . $_POST["productCOO"][$i] . "' WHERE product_id='" . $_POST["productId"][$i] . "'";
@@ -24,6 +25,28 @@ header("Location:list_products.php");
 }
 ?>
 <html>
+<script type="text/javascript">
+    function validateForm()
+    {
+		var check = true;
+		var message = "Product's name number: ";
+		var names=document.getElementsByName('productName[]');
+		for(key=0; key < names.length; key++)  {
+			if(names[key].value === ""){
+				check = false;
+				message = message + (key+1) +" ";
+			}
+		}
+		message = message +"is empty";
+		if (check ==false){
+			alert(message);
+			return false;
+		}
+		else{
+			return true;
+		}
+    }
+</script>
 <head>
 <title>Edit Multiple Products</title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -37,6 +60,12 @@ header("Location:list_products.php");
 </tr>
 <?php
 $rowCount = count($_POST["products"]);
+	if ($rowCount===0){
+		?>
+		<center> <h3> <?php echo "Please Choose First"; ?> </h3> </center>
+		<?php
+		echo "<script>setTimeout(\"location.href = 'list_products';\",1500);</script>";
+	}
 for($i=0;$i<$rowCount;$i++) {
 	$query1="SELECT * FROM product WHERE product_id='" . $_POST["products"][$i] . "'";
 	$result = $conn -> query($query1);
@@ -66,7 +95,7 @@ for($i=0;$i<$rowCount;$i++) {
 }
 ?>
 <tr>
-<td colspan="2"><input type="submit" name="submit" value="Submit" class="btnSubmit"></td>
+<td colspan="2"><input onclick="return validateForm();" type="submit" name="submit" value="Submit" class="btnSubmit"></td>
 </tr>
 </table>
 </div>
