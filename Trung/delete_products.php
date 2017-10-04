@@ -2,7 +2,7 @@
 session_start();
 if (!($_SESSION["access_status"] === "granted")) {
     $page = "delete_products.php";
-    header("location: example0709.php?Page=$page");
+    header("location: login.php?Page=$page");
 }
 ?>
 <?php

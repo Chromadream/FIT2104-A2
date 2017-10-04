@@ -1,4 +1,9 @@
 <?php
+    session_start();
+    if (!($_SESSION["access_status"] === "granted")) {
+        $page = "images.php";
+        header("location: login.php?Page=$page");
+    }
     include("connection.php");
     $CONNECTION=new mysqli($HOST,$USERNAME,$PASSWORD,$DATABASE);
     $imagedir = "product_images/";

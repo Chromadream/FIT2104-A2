@@ -1,4 +1,10 @@
-<?php ob_start();
+<?php 
+session_start();
+if (!($_SESSION["access_status"] === "granted")) {
+    $page = "clientPDF.php";
+    header("location: login.php?Page=$page");
+}
+ob_start();
 require "vendor/autoload.php";
 include("connection.php");
 include("clientPDF.php");

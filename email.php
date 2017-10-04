@@ -1,4 +1,9 @@
 <?php
+session_start();
+if (!($_SESSION["access_status"] === "granted")) {
+    $page = "email.php";
+    header("location: login.php?Page=$page");
+}
 include("connection.php");
 $CONNECTION=new mysqli($HOST,$USERNAME,$PASSWORD,$DATABASE);
 $QUERY = "SELECT * FROM CLIENT where client_mailinglist = 'y' ORDER BY client_fname";
@@ -11,7 +16,7 @@ if(empty($_POST["check"])){
         <title>Famox Mailing List Page</title>
     </head>
     <body>
-    <h1>Mailing List</h1>
+    <h1>New Email</h1>
     <form method="post" action="email.php">
         <table border="1" cellpadding="5">
             <tr>
