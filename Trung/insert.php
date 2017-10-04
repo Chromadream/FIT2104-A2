@@ -19,9 +19,16 @@ if (empty($_POST["pname"]))
 
 }
 else {
-    $conn = mysqli_connect("130.194.7.82","s27923517","punyamapunpun","s27923517");
-    $query = "INSERT INTO product (product_name,product_purchase_price,product_sale_price,product_country_of_origin) VALUES('$_POST[pname]', '$_POST[pprice]','$_POST[sprice]','$_POST[origin]')";
-    if ($conn->query($query)) {
+    include("connection.php");
+	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
+    $query = "INSERT INTO product (product_name,product_purchase_price,product_sale_price,product_country_of_origin) VALUES(?,?,?,?)";
+    $pquery = mysqli_prepare($conn,$query);
+    $pquery->bind_param('sdds',$p_name,$p_pur,$p_sale,$p_origin);
+    $p_name = $_POST["pname"];
+    $p_pur = $_POST["pprice"];
+    $p_sale = $_POST["sprice"];
+    $p_origin = $_POST["origin"];
+    if ($pquery->execute()) {
         ?>
         <script language="JavaScript">
             alert("New product successfully added to database");
