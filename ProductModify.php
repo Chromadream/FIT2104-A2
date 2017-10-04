@@ -69,7 +69,8 @@ function validateForm1()
 </script>
 <center><h3>Product Modification</h3></center>
 <?php
-$conn = mysqli_connect("130.194.7.82","s27923517","punyamapunpun","s27923517");
+include("connection.php");
+$conn = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DATABASE);
 $query = "SELECT * From product WHERE product_id=".$_GET["pid"];
 $result = $conn->query(($query));
 $row = $result->fetch_assoc();

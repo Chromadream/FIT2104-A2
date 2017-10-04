@@ -17,9 +17,10 @@ if (!($_SESSION["access_status"] === "granted")) {
 <?php
 	include("connection.php");
 	//$conn = new mysqli($Host, $UName, $PWord, $DB);
-	$conn = new PDO('mysql:host=130.194.7.82;dbname=s27923517','s27923517','punyamapunpun');
-	$stmt = $conn->prepare("select * from product");
-	$stmt->execute();
+	$conn = new mysqli($HOST,$USERNAME,$PASSWORD,$DATABASE);
+	$query = "select * from product";
+	$stmt = $conn->query($query);
+
 	
 ?>
 <table border= "1px solid black">
@@ -31,7 +32,7 @@ if (!($_SESSION["access_status"] === "granted")) {
     </tr>
 
 <?php
-	while ($row = $stmt->fetch())
+	while ($row = $stmt->fetch_assoc())
 	{
 ?>
 	<tr>
