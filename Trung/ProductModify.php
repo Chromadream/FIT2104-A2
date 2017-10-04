@@ -11,6 +11,54 @@
 
 <head><title></title></head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+function validateForm1()
+    {
+		var check = true;
+		var checkv = true;
+		var message1 = "Field(s):  ";
+		var name=document.getElementsByName('pname');
+		var sprice=document.getElementsByName('sprice');
+		var pprice=document.getElementsByName('pprice');
+		//alert(name[0].value==="");
+		if(name[0].value===""){
+			
+			message1 = message1+"name ";
+			check =false;
+		}
+		
+		if(sprice[0].value===""){
+			message1 = message1+"saleprice ";
+			check =false;
+		}
+		
+		if(pprice[0].value===""){
+			message1 = message1+"purchaseprice ";
+			check =false;
+		}
+		
+		
+		if (!(sprice[0].value ==="") && !(pprice[0].value ==="") && sprice[0].value<pprice[0].value){
+			message2="Sale price is less than purchase price";
+			checkv=false;
+		}
+		else {
+			message2="";	
+		}
+		
+		message1 = message1 +"are empty";
+		if (check ===false || checkv === false){
+			if (check === false)
+				alert(message1);
+			if(checkv === false)
+				alert(message2);
+			return false;
+		}
+		else{
+			return true;
+		}
+    }
+</script>
 <body>
 <script language="JavaScript">
     function confirm_delete()
@@ -103,8 +151,9 @@ case "Update":
         <table align="center">
             <br/>
             <tr>
-                <td><input type="submit" value="Update product"></td>
-                <td><input type="button" value="return to list" OnClick="window.location='single_product.php'"></td>
+                <td><input onclick="return validateForm1();" type="submit" value="Update product" class="btnSubmit"></td>
+                <td><input type="button" value="Add Image" OnClick="window.location='single_product.php'"></td>
+                <td><input type="button" value="Return to list" OnClick="window.location='single_product.php'"></td>
             </tr>
         </table>
     </form>
