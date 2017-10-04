@@ -1,11 +1,11 @@
 <?php
 include("connection.php");
 $CONNECTION=new mysqli($HOST,$USERNAME,$PASSWORD,$DATABASE);
-$QUERY = "SELECT * FROM CLIENT where client_mailinglist == 'Y' ORDER BY client_lname";
+$QUERY = "SELECT * FROM CLIENT where client_mailinglist = 'y' ORDER BY client_fname";
 $RESULT = $CONNECTION->query($QUERY);
 
-if(empty($_POST["check"])
-{ ?>
+if(empty($_POST["check"])){ 
+    ?>
     <html>
     <head>
         <title>Famox Mailing List Page</title>
@@ -24,7 +24,7 @@ if(empty($_POST["check"])
             {
                 ?>
             <tr>
-                <td><?php echo $row["client_lname"].' '.$row["client_fname"];?></td>
+                <td><?php echo $row["client_fname"].' '.$row["client_lname"];?></td>
                 <td><?php echo $row["client_email"];?></td>
                 <td align="center"><input type="checkbox" name="check[]" value="<?php echo $row["client_email"];?>"></td>
             </tr>
@@ -49,7 +49,7 @@ else
     {
         if(!mail($dest,$subject,$message,$FROM))
         {
-            echo "Email to".$dest." is not sent";
+            echo "Email to ".$dest." is not sent";
         }
     }
     echo "Email sent.";
