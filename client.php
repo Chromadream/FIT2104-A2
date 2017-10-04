@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!($_SESSION["access_status"] === "granted")) {
-    $page = "single_product.php";
+    $page = "client.php";
     header("location: login.php?Page=$page");
 }
 ?>
@@ -17,13 +17,13 @@ if (!($_SESSION["access_status"] === "granted")) {
 <?php
 	include("connection.php");
 	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
-	$stmt = $conn->prepare("SELECT * FROM CLIENT ORDER BY client_fname");
-	$stmt->execute();
+    $query = "SELECT * FROM CLIENT ORDER BY client_fname";
+    $result = $conn->query($query);
 	
 ?>
 <table border= "1px solid black">
 	<tr>
-    	<td><?php echo "Name" ?> </td>
+       <td><?php echo "Name" ?> </td>
        <td><?php echo "Address" ?> </td>
        <td><?php echo "Suburb" ?> </td>
        <td><?php echo "State" ?> </td>
@@ -34,12 +34,12 @@ if (!($_SESSION["access_status"] === "granted")) {
     </tr>
 
 <?php
-	while ($row = $stmt->fetch())
+	while ($row = $result->fetch_assoc())
 	{
 ?>
 	<tr>
-       <td><?php echo $row["client_fname"].$row["client_lname"]; ?> </td>
-       <td><?php echo $row["client_address"]; ?> </td>
+       <td><?php echo $row["client_fname"]." ".$row["client_lname"]; ?> </td>
+       <td><?php echo $row["client_street"]; ?> </td>
        <td><?php echo $row["client_suburb"]; ?> </td>
        <td><?php echo $row["client_state"]; ?> </td>
        <td><?php echo $row["client_pc"]; ?> </td>

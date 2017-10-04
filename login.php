@@ -51,7 +51,7 @@ if(empty($_POST["uname"]))
 else 
 { 
 include("connection.php"); 
-$conn = new mysqli($Host, $UName, $PWord, $DB) 
+$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE) 
 or die("Couldn't log on to database"); 
 
 $query="SELECT admin_id FROM admin WHERE uname = ? AND passwd = ?"; 
