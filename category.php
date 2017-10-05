@@ -38,7 +38,7 @@ if (!($_SESSION["access_status"] === "granted")) {
        	<a href="catModify.php?pid=<?php echo $row["category_id"]; ?> &Action=Delete">Delete</a>
         </td>
         <td>
-			<a href="catModify.php?pid=<?php echo $row["category_name"]; ?>
+			<a href="catModify.php?pid=<?php echo $row["category_id"]; ?>
 &Action=Update">Update</a>
 		</td>
     </tr>
@@ -48,7 +48,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 </table>
 
-<a href="newCat.php" ><button>New Category</button></a>
+<a href="newCat_form.php" ><button>New Category</button></a>
 <a href="index.html" ><button>Return to Main Page</button></a>
 </body>
 </html>

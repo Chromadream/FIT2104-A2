@@ -55,7 +55,7 @@ if (!($_SESSION["access_status"] === "granted")) {
         <br/>
         <tr>
             <td><input type="submit" value="Insert product"></td>
-            <td><input type="button" value="return to list" OnClick="window.location='single_product.php'"></td>
+            <td><input type="button" value="return to list" OnClick="window.location='client.php'"></td>
         </tr>
     </table>
 </form>
