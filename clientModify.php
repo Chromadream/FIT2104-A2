@@ -25,15 +25,16 @@ include("connection.php");
 $conn = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DATABASE);
 $query = "SELECT * From client WHERE client_id=".$_GET["pid"];
 $result = $conn->query($query);
-$row = $result->fetch_assoc();
+
 
 $strAction = $_GET["Action"];
 
 switch ($strAction)
 {
 case "Update":
-?>
-    <form method="post" action="clientModify.php?pid=<?php echo $_GET["pid"]; ?>&Action=ConfirmUpdate">
+    $row = $result->fetch_assoc();
+    ?>
+    <form method="post" action="clientModify.php?pid=<?php echo $row["client_id"];?>&Action=ConfirmUpdate">
         <center>Client detail<br/></center>
         <p/>
         <table align="center" cellpadding="3">
@@ -76,7 +77,7 @@ case "Update":
             </tr>
             <tr>
                 <td><b>Mailing List</b></td>
-                <td><input type="checkbox" name="mail[]" size="30" <?php if ($row["client_mailinglist"]=="y") echo 'checked';?>></td>
+                <td><input type="checkbox" name="mail[]" size="30" <?php if ($row["client_mailinglist"]=="Y") echo 'checked';?>></td>
             </tr>
         </table>
         <br/>
@@ -93,15 +94,16 @@ case "Update":
     break;
     
 case "ConfirmUpdate": {
-    $update_q = "UPDATE client SET client_fname = ?,client_lname = ?, client_street = ?, client_suburb = ?, client_state = ?, client_pcode = ?, client_email = ?,client_mobile = ?,client_mailinglist=? WHERE client_id = $pid";
-    $pquery = mysqli_prepare($conn,$update_q);
+    $update_q = "UPDATE client SET client_fname = ?, client_lname = ?, client_street = ?, client_suburb = ?, client_state = ?, client_pc = ?, client_email = ?, client_mobile = ?, client_mailinglist = ? WHERE client_id =".$_GET["pid"];
+    $pquery = mysqli_prepare($conn,$update_q) or die ("Mysql Error: " . $conn->error);
     $pquery->bind_param('sssssssss',$fname,$lname,$addr,$suburb,$state,$pc,$email,$mobile,$mail);
     $fname = $_POST["fname"];
     $lname = $_POST["lname"];
     $addr = $_POST["addr"];
     $suburb = $_POST["suburb"];
-    $state = $_POST["pcode"];
+    $state = $_POST["state"];
     $email = $_POST["email"];
+    $pc = $_POST["pcode"];
     $mobile = $_POST["mobile"];
     if(empty($_POST["mail"]))
     {

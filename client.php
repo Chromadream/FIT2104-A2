@@ -47,10 +47,10 @@ if (!($_SESSION["access_status"] === "granted")) {
        <td><?php echo $row["client_mobile"]; ?> </td>
        <td><?php echo $row["client_mailinglist"]; ?> </td>
        <td>
-       	<a href="clientModify.php?pid= <?php echo $row["client_id"]; ?> &Action=Delete">Delete</a>
+       	<a href="clientModify.php?pid=<?php echo $row["client_id"]; ?> &Action=Delete">Delete</a>
         </td>
         <td>
-			<a href="clientModify.php?pid= <?php echo $row["client_id"]; ?>
+			<a href="clientModify.php?pid=<?php echo $row["client_id"]; ?>
 &Action=Update">Update</a>
 		</td>
     </tr>
@@ -62,10 +62,6 @@ if (!($_SESSION["access_status"] === "granted")) {
 
 <a href="newClient.php" ><button>New Client</button></a>
 <a href="email.php" ><button>New Email</button></a>
-<<<<<<< HEAD
 <a href="clientPDF.php"><button>Generate PDF</button></a>
-=======
-
->>>>>>> origin/master
 </body>
 </html>
