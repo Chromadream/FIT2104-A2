@@ -20,7 +20,7 @@ function validateForm1()
 		var name=document.getElementsByName('pname');
 		var sprice=document.getElementsByName('sprice');
 		var pprice=document.getElementsByName('pprice');
-		//alert(name[0].value==="");
+
 		if(name[0].value===""){
 			
 			message1 = message1+"name ";
@@ -83,11 +83,13 @@ case "Update":
 
 	$query1 = "SELECT * From category";
 	$result1 = $conn->query(($query1));
-
-
+	
+	$query3 = "SELECT * From product_image WHERE product_id=".$row['product_id'];
+	$result3 = $conn->query(($query3));
+	
     ?>
     <form method="post" action="ProductModify.php?pid=<?php echo $_GET["pid"]; ?>&Action=ConfirmUpdate">
-        <center>Product detail<br/></center>
+        <center><h4>Product detail</h4><br/></center>
         <p/>
         <table align="center" cellpadding="3">
             <tr>
@@ -115,7 +117,7 @@ case "Update":
         <br/>
         
         <center>
-        <h5> Category </h5>
+        <h4> Category </h4>
         <table>
         
         <?php
@@ -148,6 +150,41 @@ case "Update":
         ?>
         </table>
         </center>
+        
+        <center>
+        <h4>Image (Tick to delete)</h4>
+        <?php
+		$i = 0;
+		echo "<table>";
+		while ($row3= $result3->fetch_assoc()) {
+			if ($i == 0) {
+				echo "<tr>";	
+			}
+			$i=$i+1;
+			echo "<td>";
+				$source ="/product_images/".$row3['image_name'];
+				echo "<img src='$source' style='width:70px;height:50px;'>";
+			echo "</td>";
+			
+			echo "<td>";
+				echo $source;
+			?>
+				 <input type="checkbox" name="image_del[]" value="<?php echo $row3["image_id"]; ?>"
+           <?php
+			echo "</td>";
+			
+			if ($i == 4) {
+				echo "</tr>";	
+				$i=0;
+			}
+			
+			
+		}
+		echo "</table>";
+		?>
+        </center>
+        
+        
         
         <table align="center">
             <br/>
@@ -219,6 +256,24 @@ case "ConfirmUpdate": {
 		}
 	}
 
+	//Delete image
+	$image_del = $_POST["image_del"];
+	if (!empty($image_del)) {
+		$rowCount=count($image_del);
+		for($i=0;$i<$rowCount;$i++) {
+		 
+		 ?>
+        <script language="JavaScript">
+            alert("co chay");
+        </script>
+        <?php
+		
+				$query3 = $query="DELETE FROM product_image WHERE product_id='" .$_GET["pid"] . "'"  ."AND image_id='" .$image_del[$i] . "'";
+				$result = $conn->query(($query3));
+				
+			
+		}
+	}
 	
 	
     header("Location: single_product.php");

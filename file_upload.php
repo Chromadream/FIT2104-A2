@@ -49,12 +49,13 @@
         </script>
         <?php
     } else {
-		echo "<script type='text/javascript'>alert('$pid' + '    ' +'$iname');</script>";
-		//print "$pquery->error";
-		//exit(1);
+
         ?>
         <script language="JavaScript">
             alert("Error adding record. Contact System Administrator");
+		 <?php
+			 print "$pquery->error";
+		 ?>
         </script>
         
         <?php
@@ -77,6 +78,10 @@ else
      echo "File Name: " .$_FILES["userfile"]["name"]."<br />"; 
      echo "File Size: " .$_FILES["userfile"]["size"]."<br />"; 
      echo "File Type: " .$_FILES["userfile"]["type"]."<br />"; 
+		echo ("<script language='JavaScript'>
+		 window.location.href='ProductModify.php?pid=$pid&Action=Update';
+		 window.alert('Redirecting to update page.')
+		</script>");
      } 
     } 
 
@@ -95,7 +100,9 @@ continue;
 echo $file."<br />"; 
 } 
 closedir($dir); 
-    } 
+    }
+
+
 ?> 
 </body> 
 </html>
