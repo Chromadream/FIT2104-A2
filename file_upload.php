@@ -1,9 +1,24 @@
+<?php
+    ob_start();
+	session_start();
+	if (!($_SESSION["access_status"] === "granted")) {
+		$page = "single_product.php";
+		header("location: login.php?Page=$page");
+	}
+
+
+	include("connection.php");
+	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
+    
+
+?>   
 <html> 
 <head> 
     <title>PHP Upload File</title> 
 </head> 
 <body> 
     <h1>PHP File Upload</h1> 
+
 <?php 
     if (!isset($_FILES["userfile"]["tmp_name"])) 
     { 
@@ -11,7 +26,7 @@
         <form method="post" enctype="multipart/form-data" action="file_upload.php"> 
             <table border="0"> 
             <tr> 
-                <td><b>Select a file to upload:</b><br><input type="file" size="50" name="userfile"></td> 
+                <td><input name="productId" type="hidden" value= <?php echo $_GET["pid"]; ?>> <b>Select a file to upload:</b><br><input type="file" size="50" name="userfile"></td> 
             </tr> 
             <tr> 
                 <td><input type="submit" value="Upload File"></td> 
@@ -22,6 +37,28 @@
     } 
     else 
     { 
+	$query = "INSERT INTO product_image (product_id,image_name) VALUES(?,?)";
+    $pquery = mysqli_prepare($conn,$query);
+    $pquery->bind_param('is',$pid,$iname);
+    $pid = $_POST["productId"];
+    $iname = $_FILES["userfile"]["name"];
+    if ($pquery->execute()) {
+        ?>
+        <script language="JavaScript">
+            alert("New image successfully added to database");
+        </script>
+        <?php
+    } else {
+		echo "<script type='text/javascript'>alert('$pid' + '    ' +'$iname');</script>";
+		//print "$pquery->error";
+		//exit(1);
+        ?>
+        <script language="JavaScript">
+            alert("Error adding record. Contact System Administrator");
+        </script>
+        
+        <?php
+		}
         $upfile = "product_images/".$_FILES["userfile"]["name"]; 
 
 if($_FILES["userfile"]["type"] != "image/gif" && $_FILES["userfile"]["type"] != "image/pjpeg" && $_FILES["userfile"]["type"] != "image/jpeg") 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email.php" afterPath="$PROJECT_DIR$/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.php" afterPath="$PROJECT_DIR$/client.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,25 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product.php">
+      <file leaf-file-name="clientModify.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clientModify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="47" />
+            <state relative-caret-position="421">
+              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
-                <marker date="1505720074031" expanded="true" signature="116:137" ph="SELECT * FRO... PRODUCT" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/images.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-              <folding>
-                <marker date="1506700824518" expanded="true" signature="116:137" ph="SELECT * FRO... PRODUCT" />
+                <marker date="1507119572344" expanded="true" signature="592:629" ph="SELECT * Fro... client" />
+                <marker date="1507119572344" expanded="true" signature="3078:3202" ph="..." />
+                <marker date="1507119572344" expanded="true" signature="3113:3202" ph="..." />
+                <marker date="1507119572344" expanded="true" signature="3434:3451" ph="UPDATE CLIEN... " />
+                <marker date="1507119572344" expanded="true" signature="3434:3524" ph="UPDATE clien... " />
+                <marker date="1507119572344" expanded="true" signature="3434:3578" ph="UPDATE clien... " />
+                <marker date="1507119572344" expanded="true" signature="3434:3601" ph="UPDATE clien... " />
+                <marker date="1507119572344" expanded="true" signature="3434:3611" ph="UPDATE clien... " />
+                <marker date="1507119572344" expanded="true" signature="3434:3614" ph="UPDATE clien... " />
+                <marker date="1507119572344" expanded="true" signature="3434:3615" ph="UPDATE clien... " />
+                <marker date="1507119572344" expanded="true" signature="4445:4497" ph="Delete from " />
               </folding>
             </state>
           </provider>
@@ -64,6 +62,7 @@
         <option value="$PROJECT_DIR$/productModify.php" />
         <option value="$PROJECT_DIR$/email.php" />
         <option value="$PROJECT_DIR$/images.php" />
+        <option value="$PROJECT_DIR$/clientModify.php" />
       </list>
     </option>
   </component>
@@ -106,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +117,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,11 +152,12 @@
       <workItem from="1505718386564" duration="3893000" />
       <workItem from="1506698100968" duration="293000" />
       <workItem from="1506698478276" duration="2354000" />
+      <workItem from="1507113383082" duration="4906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6540000" />
+    <option name="totallyTimeSpent" value="11446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -201,13 +201,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <marker date="1507099265896" expanded="true" signature="822:930" ph="SELECT p.pro... PRODUCT_IMAGE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <marker date="1506700232582" expanded="true" signature="104:178" ph="SELECT * FRO... CLIENT" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -223,31 +247,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <marker date="1505720074031" expanded="true" signature="116:137" ph="SELECT * FRO... PRODUCT" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productModify.php">
+    <entry file="file://$PROJECT_DIR$/ProductModify.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <marker date="1505722200335" expanded="true" signature="116:155" ph="SELECT * FRO... PRODUCT" />
-            <marker date="1505722200335" expanded="true" signature="340:378" ph="DELETE FROM " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productModify.php">
+    <entry file="file://$PROJECT_DIR$/ProductModify.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <marker date="1505722200335" expanded="true" signature="116:155" ph="SELECT * FRO... PRODUCT" />
-            <marker date="1505722200335" expanded="true" signature="340:378" ph="DELETE FROM " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -255,9 +271,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <marker date="1506700232582" expanded="true" signature="104:178" ph="SELECT * FRO... CLIENT" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -273,18 +287,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <marker date="1505720074031" expanded="true" signature="116:137" ph="SELECT * FRO... PRODUCT" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="918">
+          <caret line="54" column="2" lean-forward="false" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
           <folding>
-            <marker date="1506700824518" expanded="true" signature="116:137" ph="SELECT * FRO... PRODUCT" />
+            <marker date="1507099265896" expanded="true" signature="822:930" ph="SELECT p.pro... PRODUCT_IMAGE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientModify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <marker date="1507119572344" expanded="true" signature="592:629" ph="SELECT * Fro... client" />
+            <marker date="1507119572344" expanded="true" signature="3078:3202" ph="..." />
+            <marker date="1507119572344" expanded="true" signature="3113:3202" ph="..." />
+            <marker date="1507119572344" expanded="true" signature="3434:3451" ph="UPDATE CLIEN... " />
+            <marker date="1507119572344" expanded="true" signature="3434:3524" ph="UPDATE clien... " />
+            <marker date="1507119572344" expanded="true" signature="3434:3578" ph="UPDATE clien... " />
+            <marker date="1507119572344" expanded="true" signature="3434:3601" ph="UPDATE clien... " />
+            <marker date="1507119572344" expanded="true" signature="3434:3611" ph="UPDATE clien... " />
+            <marker date="1507119572344" expanded="true" signature="3434:3614" ph="UPDATE clien... " />
+            <marker date="1507119572344" expanded="true" signature="3434:3615" ph="UPDATE clien... " />
+            <marker date="1507119572344" expanded="true" signature="4445:4497" ph="Delete from " />
           </folding>
         </state>
       </provider>

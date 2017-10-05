@@ -62,6 +62,10 @@ if (!($_SESSION["access_status"] === "granted")) {
 
 <a href="newClient.php" ><button>New Client</button></a>
 <a href="email.php" ><button>New Email</button></a>
+<<<<<<< HEAD
 <a href="clientPDF.php"><button>Generate PDF</button></a>
+=======
+
+>>>>>>> origin/master
 </body>
 </html>

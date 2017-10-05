@@ -69,7 +69,8 @@ function validateForm1()
 </script>
 <center><h3>Product Modification</h3></center>
 <?php
-$conn = mysqli_connect("130.194.7.82","s27923517","punyamapunpun","s27923517");
+include("connection.php");
+$conn = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DATABASE);
 $query = "SELECT * From product WHERE product_id=".$_GET["pid"];
 $result = $conn->query(($query));
 $row = $result->fetch_assoc();
@@ -152,11 +153,13 @@ case "Update":
             <br/>
             <tr>
                 <td><input onclick="return validateForm1();" type="submit" value="Update product" class="btnSubmit"></td>
-                <td><input type="button" value="Add Image" OnClick="window.location='single_product.php'"></td>
                 <td><input type="button" value="Return to list" OnClick="window.location='single_product.php'"></td>
+                <td><button><a href="file_upload.php?pid= <?php echo $row["product_id"]; ?>">Upload File</a></button></td>
             </tr>
         </table>
     </form>
+    
+    
     <?php
     break;
     
@@ -216,6 +219,7 @@ case "ConfirmUpdate": {
 		}
 	}
 
+	
 	
     header("Location: single_product.php");
 
