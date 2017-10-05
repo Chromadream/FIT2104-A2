@@ -2,7 +2,7 @@
     ob_start();
 	
 	if (!($_SESSION["access_status"] === "granted")) {
-		$page = "insert_it.php";
+		$page = "client.php";
 		header("location: login.php?Page=$page");
 	}
 
