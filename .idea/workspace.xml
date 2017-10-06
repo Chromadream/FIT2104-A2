@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/FamoxLogo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductModify.php" afterPath="$PROJECT_DIR$/ProductModify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createPDF.php" afterPath="$PROJECT_DIR$/createPDF.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/doc_main.html" afterPath="$PROJECT_DIR$/documentation/doc_main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +43,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="74" lean-forward="false" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+            <state relative-caret-position="221">
+              <caret line="77" column="79" lean-forward="false" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
               <folding>
-                <element signature="e#2785#2791#0" expanded="true" />
+                <element signature="e#2856#2862#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doc_main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/documentation/doc_main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,24 +100,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createPDF.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createPDF.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createPDF.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
-              <folding>
-                <marker date="1507278889522" expanded="true" signature="245:318" ph="SELECT * FRO... CLIENT" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -198,7 +195,6 @@
         <option value="$PROJECT_DIR$/multiView.php" />
         <option value="$PROJECT_DIR$/muledit_products.php" />
         <option value="$PROJECT_DIR$/clientModify.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/email.php" />
         <option value="$PROJECT_DIR$/catModify.php" />
         <option value="$PROJECT_DIR$/project.php" />
@@ -206,6 +202,8 @@
         <option value="$PROJECT_DIR$/images.php" />
         <option value="$PROJECT_DIR$/ProductModify.php" />
         <option value="$PROJECT_DIR$/createPDF.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/documentation/doc_main.html" />
       </list>
     </option>
   </component>
@@ -335,6 +333,11 @@
               <item name="FIT2104-A2" type="b2602c69:ProjectViewProjectNode" />
               <item name="FIT2104-A2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="FIT2104-A2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIT2104-A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="documentation" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -381,12 +384,12 @@
       <workItem from="1507213392540" duration="242000" />
       <workItem from="1507257737431" duration="5694000" />
       <workItem from="1507271963926" duration="4466000" />
-      <workItem from="1507281267668" duration="655000" />
+      <workItem from="1507281267668" duration="767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33088000" />
+    <option name="totallyTimeSpent" value="33200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -424,13 +427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newCat_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newCat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -793,16 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="74" lean-forward="false" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
-          <folding>
-            <element signature="e#2785#2791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -909,6 +895,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="77" column="79" lean-forward="false" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
+          <folding>
+            <element signature="e#2856#2862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/doc_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
