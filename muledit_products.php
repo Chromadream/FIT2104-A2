@@ -3,10 +3,10 @@ ob_start();
 session_start();
 if (!($_SESSION["access_status"] === "granted")) {
     $page = "muledit_products.php";
-    header("location: example0709.php?Page=$page");
+    header("location: login.php?Page=$page");
 }
 include("connection.php");
-$conn = new mysqli($Host, $UName, $PWord, $DB);
+$conn = new mysqli($HOST,$USERNAME,$PASSWORD,$DATABASE);
 ?>
 <html>
 <head>
