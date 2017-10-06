@@ -16,6 +16,7 @@ include("createPDF.php");
 </head>
 <body>
 <h1>Create PDF of Client List</h1>
+<a href='PDFS/Clients.pdf'><button>Click here to see PDF</button></a>
 <?php
 $CONNECTION=new mysqli($HOST,$USERNAME,$PASSWORD,$DATABASE);
 $QUERY = "SELECT * FROM CLIENT ORDER BY client_id";
@@ -28,6 +29,5 @@ $headerwidth = array(50,200,200,200,150,100);
 $PDF = new CreatePDF();
 
 $table = $PDF->clientPDF($headers,$headerwidth,$rows)?>
-<a href='PDFS/Clients.pdf'><button>Click here to see PDF</button></a>
 </body>
 </html>
