@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/s27923517.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/doc_main.html" afterPath="$PROJECT_DIR$/documentation/doc_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +55,8 @@
       <file leaf-file-name="doc_main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/documentation/doc_main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="459">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -384,12 +384,12 @@
       <workItem from="1507213392540" duration="242000" />
       <workItem from="1507257737431" duration="5694000" />
       <workItem from="1507271963926" duration="4466000" />
-      <workItem from="1507281267668" duration="767000" />
+      <workItem from="1507281267668" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33200000" />
+    <option name="totallyTimeSpent" value="33626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -911,8 +911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/doc_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="459">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
         </state>
       </provider>
