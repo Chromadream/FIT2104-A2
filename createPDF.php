@@ -5,7 +5,7 @@ class createPDF
     function clientPDF($header,$headerWidth,$data)
     {
         define('K_PATH_IMAGES','images/');
-        $PDF_HEADER_LOGO = "FamoxLogo.png";
+        $PDF_HEADER_LOGO = "FamoxLogo.jpg";
         $PDF_HEADER_LOGO_WIDTH = "20";
 
         $PDF = new TCPDF('L',PDF_UNIT,PDF_PAGE_FORMAT,true);

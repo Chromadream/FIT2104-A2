@@ -162,7 +162,7 @@ case "Update":
 			}
 			$i=$i+1;
 			echo "<td>";
-				$source ="/product_images/".$row3['image_name'];
+				$source ="product_images/".$row3['image_name'];
 				echo "<img src='$source' style='width:70px;height:50px;'>";
 			echo "</td>";
 			
