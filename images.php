@@ -15,6 +15,8 @@
         <title>Famox Images Manage Page</title>
         </head>
         <body>
+        <a href="index.html" ><button>Return to Main Page</button></a>
+        <h1>Famox Images Manage Page</h1>
         <form action="images.php" method="post">
         <table>
         <tr>
@@ -40,9 +42,6 @@
         </table>
         <input type="submit" value="Delete images">
         </form>
-        <a href="index.html" ><button>Return to Main Page</button></a>
-        </body>
-        </html>
         <?php
     }
     else
@@ -58,3 +57,7 @@
         }
     }
 ?>
+        <a href="displayFile.php?filename=images.php"><img src="images/Assignment2-Image-007.jpg"></a>
+        </body>
+        </html>
+

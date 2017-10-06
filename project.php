@@ -57,6 +57,8 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 </table>
 <a href="newProject_form.php" ><button>New Project</button></a>
+    <br/>
+    <a href="multiView.php?page=project"><img src="images/Assignment2-Image-003.jpg"></a>
 </center>
 
 

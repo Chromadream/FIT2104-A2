@@ -13,6 +13,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 </head>
 
 <body>
+<a href="index.html" ><button>Return to Main Page</button></a><br/>
 <h1>Famox Client List</h1>
 <?php
 	include("connection.php");
@@ -59,10 +60,10 @@ if (!($_SESSION["access_status"] === "granted")) {
 	}
 ?>
 </table>
-
 <a href="newClient_form.php" ><button>New Client</button></a>
 <a href="email.php" ><button>New Email</button></a>
 <a href="clientPDF.php"><button>Generate PDF</button></a>
-<a href="index.html" ><button>Return to Main Page</button></a>
+<br/>
+<a href="multiView.php?page=client"><img src="images/Assignment2-Image-001.jpg"></a>
 </body>
 </html>

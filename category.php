@@ -13,6 +13,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 </head>
 
 <body>
+<a href="index.html" ><button>Return to Main Page</button></a><br/>
 <h1>Famox Category Page</h1>
 <?php
 	include("connection.php");
@@ -49,6 +50,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 </table>
 
 <a href="newCat_form.php" ><button>New Category</button></a>
-<a href="index.html" ><button>Return to Main Page</button></a>
+<br/>
+<a href="multiView.php?page=category"><img src="images/Assignment2-Image-002.jpg"></a>
 </body>
 </html>
