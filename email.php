@@ -47,7 +47,7 @@ if(empty($_POST["check"])){
 }
 else
 {
-    $FROM = "From: Harry Helper <harry.helper@famox.com.au>";
+    $FROM = "From: Harry Helper <harry.helper@monash.edu.au>";
     $message = $_POST["message"];
     $subject = $_POST["subject"];
     foreach($_POST["check"] as $dest)

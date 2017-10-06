@@ -11,8 +11,8 @@
 <?php
     include("connection.php");
 	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
-    $query = "INSERT INTO client (client_fname,client_lname,client_street,client_suburb,client_state,client_pc,client_email,client_mobile,client_mailing_list) VALUES(?,?,?,?,?,?,?,?,?)";
-    $pquery = mysqli_prepare($conn,$query);
+    $query = "INSERT INTO client (client_fname,client_lname,client_street,client_suburb,client_state,client_pc,client_email,client_mobile,client_mailinglist) VALUES(?,?,?,?,?,?,?,?,?)";
+    $pquery = mysqli_prepare($conn,$query) or die($conn->error);
     $pquery->bind_param('sssssssss',$fname,$lname,$street,$suburb,$state,$postcode,$email,$mobile,$mailinglist);
     $fname = $_POST["fname"];
     $lname = $_POST["lname"];
@@ -36,7 +36,7 @@
             alert("New client successfully added to database!");
         </script>
         <?php
-        header("Location: single_product.php");
+        header("Location: client.php");
     } else {
         ?>
         <script language="JavaScript">
