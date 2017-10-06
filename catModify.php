@@ -25,14 +25,13 @@ include("connection.php");
 $conn = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DATABASE);
 $query = "SELECT * From category WHERE category_id=".$_GET["pid"];
 $result = $conn->query($query);
-
+$row = $result->fetch_assoc();
 
 $strAction = $_GET["Action"];
 
 switch ($strAction)
 {
 case "Update":
-    $row = $result->fetch_assoc();
     ?>
     <form method="post" action="catModify.php.php?pid=<?php echo $row["client_id"];?>&Action=ConfirmUpdate">
         <center>Client detail<br/></center>

@@ -25,14 +25,13 @@ include("connection.php");
 $conn = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DATABASE);
 $query = "SELECT * From client WHERE client_id=".$_GET["pid"];
 $result = $conn->query($query);
-
+$row = $result->fetch_assoc();
 
 $strAction = $_GET["Action"];
 
 switch ($strAction)
 {
 case "Update":
-    $row = $result->fetch_assoc();
     ?>
     <form method="post" action="clientModify.php?pid=<?php echo $row["client_id"];?>&Action=ConfirmUpdate">
         <center>Client detail<br/></center>
@@ -143,7 +142,7 @@ case "Delete": {
         <br/>
         <tr>
             <td><input type="button" value="Confirm" OnClick="confirm_delete();"></td>
-            <td><input type="button" value="Cancel" OnClick="window.location='single_product.php'"></td>
+            <td><input type="button" value="Cancel" OnClick="window.location='client.php'"></td>
         </tr>
     </table>
     <br/>
