@@ -157,6 +157,7 @@ else {
 ?>
 </center>
 <center><a href="insert_it.php" ><button>Insert</button></a></center>
-
+<br/>
+<a href="multiView.php?page=singleprod"><img src="images/Assignment2-Image-000.jpg"></a>
 </body>
 </html>

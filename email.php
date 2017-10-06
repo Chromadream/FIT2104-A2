@@ -61,6 +61,6 @@ else
             echo "Email to ".$dest." is not sent";
         }
     }
-    echo "Email sent.";
+    echo "Email sent.<br/><a href='email.php'><button>Send Another Email</button></a>";
 }
 ?>
