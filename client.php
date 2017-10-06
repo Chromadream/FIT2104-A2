@@ -60,7 +60,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 </table>
 
-<a href="newClient.php" ><button>New Client</button></a>
+<a href="newClient_form.php" ><button>New Client</button></a>
 <a href="email.php" ><button>New Email</button></a>
 <a href="clientPDF.php"><button>Generate PDF</button></a>
 <a href="index.html" ><button>Return to Main Page</button></a>
