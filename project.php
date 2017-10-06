@@ -22,6 +22,7 @@ if (!($_SESSION["access_status"] === "granted")) {
     $result = $conn->query($query);
 	
 ?>
+<a href="index.html" ><button>Return to Main Page</button></a><br/>
 <center>
 <h3>Projects</h3>
 <br>

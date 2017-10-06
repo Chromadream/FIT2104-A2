@@ -9,7 +9,7 @@
 ?>
 <html>
 
-<head><title></title></head>
+<head><title>Category Modify</title></head>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 <script language="JavaScript">

@@ -2,8 +2,167 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_1d_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_1d_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_1d_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_1d_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_datamatrix_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_datamatrix_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_datamatrix_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_datamatrix_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_pdf417_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_pdf417_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_pdf417_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_pdf417_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_qrcode_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_qrcode_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_qrcode_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/example_2d_qrcode_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/tcpdf_barcodes_1d_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/barcodes/tcpdf_barcodes_2d_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/config/tcpdf_config_alt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/data/cert/tcpdf.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/data/cert/tcpdf.fdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/data/cert/tcpdf.p12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/data/chapter_demo_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/data/chapter_demo_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/data/table_data_demo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/data/utf8test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_001.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_002.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_003.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_004.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_005.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_006.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_007.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_008.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_009.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_010.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_011.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_012.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_012.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_013.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_014.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_015.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_016.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_017.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_018.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_019.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_020.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_021.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_022.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_023.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_024.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_025.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_026.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_027.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_028.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_029.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_030.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_031.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_032.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_033.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_034.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_035.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_036.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_037.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_038.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_039.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_040.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_041.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_042.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_043.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_044.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_045.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_046.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_047.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_048.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_049.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_050.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_051.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_052.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_053.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_054.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_055.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_056.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_057.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_058.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_059.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_060.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_061.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_062.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_063.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_064.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/example_065.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/_blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/image_demo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/image_with_alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/logo_example.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/logo_example.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/logo_example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/tcpdf_box.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/tcpdf_box.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/tcpdf_cell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/tcpdf_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/tcpdf_signature.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/testsvg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/images/tux.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/afr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/ara.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/aze.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/bel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/bra.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/bul.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/cat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/ces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/chi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/cym.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/dan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/eng.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/est.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/eus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/far.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/fra.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/ger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/gle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/glg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/hat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/heb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/hrv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/hun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/hye.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/ind.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/ita.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/jpn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/kat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/kor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/mkd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/mlt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/msa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/nld.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/nob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/pol.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/por.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/ron.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/rus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/slv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/spa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/sqi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/srp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/swa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/swe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/ukr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/urd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/yid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/lang/zho.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/examples/tcpdf_include.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductModify.php" afterPath="$PROJECT_DIR$/ProductModify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catModify.php" afterPath="$PROJECT_DIR$/catModify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.php" afterPath="$PROJECT_DIR$/project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single_product.php" afterPath="$PROJECT_DIR$/single_product.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +190,8 @@
       <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="55" column="86" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="86" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <marker date="1507277950104" expanded="true" signature="532:577" ph="SELECT * FRO... category" />
               </folding>
@@ -43,7 +202,7 @@
       <file leaf-file-name="muledit_products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/muledit_products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="918">
               <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
               <folding>
                 <marker date="1507273716442" expanded="true" signature="499:542" ph="SELECT * FRO... product" />
@@ -56,7 +215,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="1292">
               <caret line="76" column="74" lean-forward="false" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
               <folding>
                 <element signature="e#2785#2791#0" expanded="true" />
@@ -68,42 +227,36 @@
       <file leaf-file-name="single_product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single_product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+            <state relative-caret-position="476">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
-                <marker date="1507279377307" expanded="true" signature="545:566" ph="select * fro... product" />
-                <marker date="1507279377307" expanded="true" signature="763:1501" ph="..." />
-                <marker date="1507279377307" expanded="true" signature="1154:1501" ph="{...}" />
-                <marker date="1507279377307" expanded="true" signature="3762:3808" ph="..." />
-                <marker date="1507279377307" expanded="true" signature="3762:3825" ph="{...}" />
-                <marker date="1507279377307" expanded="true" signature="3762:3828" ph="..." />
-                <marker date="1507279377307" expanded="true" signature="3762:3832" ph="..." />
-                <marker date="1507279377307" expanded="true" signature="3762:3836" ph="..." />
-                <marker date="1507279377307" expanded="true" signature="3762:3855" ph="..." />
-                <marker date="1507279377307" expanded="true" signature="3762:3867" ph="..." />
+                <marker date="1507281333010" expanded="true" signature="483:504" ph="select * fro... product" />
+                <marker date="1507281333010" expanded="true" signature="2216:2264" ph="select * fro... category" />
+                <marker date="1507281333010" expanded="true" signature="2432:2485" ph="select * fro... product_category" />
+                <marker date="1507281333010" expanded="true" signature="2915:2958" ph="select * fro... product" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductModify.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductModify.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProductModify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5555">
-              <caret line="337" column="19" lean-forward="true" selection-start-line="337" selection-start-column="19" selection-end-line="337" selection-end-column="19" />
+            <state relative-caret-position="149">
+              <caret line="315" column="0" lean-forward="true" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
               <folding>
-                <marker date="1507279750388" expanded="true" signature="1607:1646" ph="SELECT * Fro... product" />
-                <marker date="1507279750388" expanded="true" signature="1812:1834" ph="SELECT * Fro... category" />
-                <marker date="1507279750388" expanded="true" signature="1893:1938" ph="SELECT * Fro... product_image" />
-                <marker date="1507279750388" expanded="true" signature="3800:3849" ph="SELECT * Fro... product_category" />
-                <marker date="1507279750388" expanded="true" signature="5217:5240" ph="..." />
-                <marker date="1507279750388" expanded="true" signature="6254:6456" ph="UPDATE produ... " />
-                <marker date="1507279750388" expanded="true" signature="6552:6601" ph="SELECT * Fro... product_category" />
-                <marker date="1507279750388" expanded="true" signature="7305:7423" ph="DELETE FROM " />
-                <marker date="1507279750388" expanded="true" signature="7636:7754" ph="DELETE FROM " />
-                <marker date="1507279750388" expanded="true" signature="8016:8128" ph="INSERT INTO product_category... " />
-                <marker date="1507279750388" expanded="true" signature="8523:8630" ph="DELETE FROM " />
-                <marker date="1507279750388" expanded="true" signature="9644:9698" ph="Delete from " />
+                <marker date="1507281278565" expanded="true" signature="1623:1662" ph="SELECT * Fro... product" />
+                <marker date="1507281278565" expanded="true" signature="1825:1847" ph="SELECT * Fro... category" />
+                <marker date="1507281278565" expanded="true" signature="1901:1946" ph="SELECT * Fro... product_image" />
+                <marker date="1507281278565" expanded="true" signature="3582:3631" ph="SELECT * Fro... product_category" />
+                <marker date="1507281278565" expanded="true" signature="4570:4593" ph="..." />
+                <marker date="1507281278565" expanded="true" signature="5449:5651" ph="UPDATE produ... " />
+                <marker date="1507281278565" expanded="true" signature="5742:5791" ph="SELECT * Fro... product_category" />
+                <marker date="1507281278565" expanded="true" signature="6369:6485" ph="DELETE FROM " />
+                <marker date="1507281278565" expanded="true" signature="6640:6756" ph="DELETE FROM " />
+                <marker date="1507281278565" expanded="true" signature="6967:7074" ph="INSERT INTO product_category... " />
+                <marker date="1507281278565" expanded="true" signature="7391:7496" ph="DELETE FROM " />
+                <marker date="1507281278565" expanded="true" signature="8453:8507" ph="Delete from " />
               </folding>
             </state>
           </provider>
@@ -112,7 +265,7 @@
       <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="1071">
               <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
               <folding>
                 <marker date="1507278889522" expanded="true" signature="245:318" ph="SELECT * FRO... CLIENT" />
@@ -124,28 +277,13 @@
       <file leaf-file-name="catModify.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catModify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
-                <marker date="1507277950087" expanded="true" signature="1681:1815" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="1681:1832" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="1681:1844" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="1681:1866" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="1681:3802" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="1895:2445" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="1913:1970" ph="UPDATE clien... " />
-                <marker date="1507277950087" expanded="true" signature="2168:2250" ph="{...}" />
-                <marker date="1507277950087" expanded="true" signature="2259:2393" ph="{...}" />
-                <marker date="1507277950087" expanded="true" signature="2463:3158" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="2592:2856" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="2605:2715" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="2728:2843" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="2793:2822" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="2883:3123" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="2910:3110" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="3194:3250" ph="Delete from " />
-                <marker date="1507277950087" expanded="true" signature="3305:3795" ph="..." />
-                <marker date="1507277950087" expanded="true" signature="3518:3590" ph="..." />
+                <marker date="1507281344954" expanded="true" signature="609:650" ph="SELECT * Fro... category" />
+                <marker date="1507281344954" expanded="true" signature="1696:1830" ph="..." />
+                <marker date="1507281344954" expanded="true" signature="1928:1985" ph="UPDATE categ... " />
+                <marker date="1507281344954" expanded="true" signature="3209:3265" ph="Delete from " />
               </folding>
             </state>
           </provider>
@@ -154,7 +292,7 @@
       <file leaf-file-name="clientModify.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clientModify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="561">
               <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding>
                 <marker date="1507277950171" expanded="true" signature="606:643" ph="SELECT * Fro... client" />
@@ -165,13 +303,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
               <folding>
-                <marker date="1507277950382" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
+                <marker date="1507281353762" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
               </folding>
             </state>
           </provider>
@@ -180,7 +318,7 @@
       <file leaf-file-name="images.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="1054">
               <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="102" />
               <folding>
                 <marker date="1507277950265" expanded="true" signature="1804:1848" ph="DELETE FROM " />
@@ -213,15 +351,15 @@
         <option value="$PROJECT_DIR$/projectModify.php" />
         <option value="$PROJECT_DIR$/client.php" />
         <option value="$PROJECT_DIR$/category.php" />
-        <option value="$PROJECT_DIR$/project.php" />
         <option value="$PROJECT_DIR$/multiView.php" />
         <option value="$PROJECT_DIR$/muledit_products.php" />
         <option value="$PROJECT_DIR$/clientModify.php" />
-        <option value="$PROJECT_DIR$/catModify.php" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/single_product.php" />
         <option value="$PROJECT_DIR$/email.php" />
         <option value="$PROJECT_DIR$/ProductModify.php" />
+        <option value="$PROJECT_DIR$/single_product.php" />
+        <option value="$PROJECT_DIR$/catModify.php" />
+        <option value="$PROJECT_DIR$/project.php" />
       </list>
     </option>
   </component>
@@ -344,7 +482,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,6 +493,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,11 +535,12 @@
       <workItem from="1507213392540" duration="242000" />
       <workItem from="1507257737431" duration="5694000" />
       <workItem from="1507271963926" duration="4466000" />
+      <workItem from="1507281267668" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32433000" />
+    <option name="totallyTimeSpent" value="32525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -467,25 +606,10 @@
         <state relative-caret-position="1343">
           <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding>
-            <marker date="1507277950087" expanded="true" signature="1681:1815" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1832" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1844" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1866" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:3802" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1895:2445" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1913:1970" ph="UPDATE clien... " />
-            <marker date="1507277950087" expanded="true" signature="2168:2250" ph="{...}" />
-            <marker date="1507277950087" expanded="true" signature="2259:2393" ph="{...}" />
-            <marker date="1507277950087" expanded="true" signature="2463:3158" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2592:2856" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2605:2715" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2728:2843" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2793:2822" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2883:3123" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2910:3110" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="3194:3250" ph="Delete from " />
-            <marker date="1507277950087" expanded="true" signature="3305:3795" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="3518:3590" ph="..." />
+            <marker date="1507281344954" expanded="true" signature="609:650" ph="SELECT * Fro... category" />
+            <marker date="1507281344954" expanded="true" signature="1696:1830" ph="..." />
+            <marker date="1507281344954" expanded="true" signature="1928:1985" ph="UPDATE categ... " />
+            <marker date="1507281344954" expanded="true" signature="3209:3265" ph="Delete from " />
           </folding>
         </state>
       </provider>
@@ -558,25 +682,10 @@
         <state relative-caret-position="1343">
           <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding>
-            <marker date="1507277950087" expanded="true" signature="1681:1815" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1832" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1844" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1866" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:3802" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1895:2445" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1913:1970" ph="UPDATE clien... " />
-            <marker date="1507277950087" expanded="true" signature="2168:2250" ph="{...}" />
-            <marker date="1507277950087" expanded="true" signature="2259:2393" ph="{...}" />
-            <marker date="1507277950087" expanded="true" signature="2463:3158" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2592:2856" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2605:2715" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2728:2843" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2793:2822" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2883:3123" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2910:3110" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="3194:3250" ph="Delete from " />
-            <marker date="1507277950087" expanded="true" signature="3305:3795" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="3518:3590" ph="..." />
+            <marker date="1507281344954" expanded="true" signature="609:650" ph="SELECT * Fro... category" />
+            <marker date="1507281344954" expanded="true" signature="1696:1830" ph="..." />
+            <marker date="1507281344954" expanded="true" signature="1928:1985" ph="UPDATE categ... " />
+            <marker date="1507281344954" expanded="true" signature="3209:3265" ph="Delete from " />
           </folding>
         </state>
       </provider>
@@ -612,18 +721,18 @@
         <state relative-caret-position="323">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
-            <marker date="1507279750388" expanded="true" signature="1607:1646" ph="SELECT * Fro... product" />
-            <marker date="1507279750388" expanded="true" signature="1812:1834" ph="SELECT * Fro... category" />
-            <marker date="1507279750388" expanded="true" signature="1893:1938" ph="SELECT * Fro... product_image" />
-            <marker date="1507279750388" expanded="true" signature="3800:3849" ph="SELECT * Fro... product_category" />
-            <marker date="1507279750388" expanded="true" signature="5217:5240" ph="..." />
-            <marker date="1507279750388" expanded="true" signature="6254:6456" ph="UPDATE produ... " />
-            <marker date="1507279750388" expanded="true" signature="6552:6601" ph="SELECT * Fro... product_category" />
-            <marker date="1507279750388" expanded="true" signature="7305:7423" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="7636:7754" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="8016:8128" ph="INSERT INTO product_category... " />
-            <marker date="1507279750388" expanded="true" signature="8523:8630" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="9644:9698" ph="Delete from " />
+            <marker date="1507281278565" expanded="true" signature="1623:1662" ph="SELECT * Fro... product" />
+            <marker date="1507281278565" expanded="true" signature="1825:1847" ph="SELECT * Fro... category" />
+            <marker date="1507281278565" expanded="true" signature="1901:1946" ph="SELECT * Fro... product_image" />
+            <marker date="1507281278565" expanded="true" signature="3582:3631" ph="SELECT * Fro... product_category" />
+            <marker date="1507281278565" expanded="true" signature="4570:4593" ph="..." />
+            <marker date="1507281278565" expanded="true" signature="5449:5651" ph="UPDATE produ... " />
+            <marker date="1507281278565" expanded="true" signature="5742:5791" ph="SELECT * Fro... product_category" />
+            <marker date="1507281278565" expanded="true" signature="6369:6485" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="6640:6756" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="6967:7074" ph="INSERT INTO product_category... " />
+            <marker date="1507281278565" expanded="true" signature="7391:7496" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="8453:8507" ph="Delete from " />
           </folding>
         </state>
       </provider>
@@ -703,18 +812,18 @@
         <state relative-caret-position="323">
           <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
-            <marker date="1507279750388" expanded="true" signature="1607:1646" ph="SELECT * Fro... product" />
-            <marker date="1507279750388" expanded="true" signature="1812:1834" ph="SELECT * Fro... category" />
-            <marker date="1507279750388" expanded="true" signature="1893:1938" ph="SELECT * Fro... product_image" />
-            <marker date="1507279750388" expanded="true" signature="3800:3849" ph="SELECT * Fro... product_category" />
-            <marker date="1507279750388" expanded="true" signature="5217:5240" ph="..." />
-            <marker date="1507279750388" expanded="true" signature="6254:6456" ph="UPDATE produ... " />
-            <marker date="1507279750388" expanded="true" signature="6552:6601" ph="SELECT * Fro... product_category" />
-            <marker date="1507279750388" expanded="true" signature="7305:7423" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="7636:7754" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="8016:8128" ph="INSERT INTO product_category... " />
-            <marker date="1507279750388" expanded="true" signature="8523:8630" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="9644:9698" ph="Delete from " />
+            <marker date="1507281278565" expanded="true" signature="1623:1662" ph="SELECT * Fro... product" />
+            <marker date="1507281278565" expanded="true" signature="1825:1847" ph="SELECT * Fro... category" />
+            <marker date="1507281278565" expanded="true" signature="1901:1946" ph="SELECT * Fro... product_image" />
+            <marker date="1507281278565" expanded="true" signature="3582:3631" ph="SELECT * Fro... product_category" />
+            <marker date="1507281278565" expanded="true" signature="4570:4593" ph="..." />
+            <marker date="1507281278565" expanded="true" signature="5449:5651" ph="UPDATE produ... " />
+            <marker date="1507281278565" expanded="true" signature="5742:5791" ph="SELECT * Fro... product_category" />
+            <marker date="1507281278565" expanded="true" signature="6369:6485" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="6640:6756" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="6967:7074" ph="INSERT INTO product_category... " />
+            <marker date="1507281278565" expanded="true" signature="7391:7496" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="8453:8507" ph="Delete from " />
           </folding>
         </state>
       </provider>
@@ -722,21 +831,21 @@
     <entry file="file://$PROJECT_DIR$/product.php" />
     <entry file="file://$PROJECT_DIR$/ProductModify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5555">
-          <caret line="337" column="19" lean-forward="true" selection-start-line="337" selection-start-column="19" selection-end-line="337" selection-end-column="19" />
+        <state relative-caret-position="149">
+          <caret line="315" column="0" lean-forward="true" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
           <folding>
-            <marker date="1507279750388" expanded="true" signature="1607:1646" ph="SELECT * Fro... product" />
-            <marker date="1507279750388" expanded="true" signature="1812:1834" ph="SELECT * Fro... category" />
-            <marker date="1507279750388" expanded="true" signature="1893:1938" ph="SELECT * Fro... product_image" />
-            <marker date="1507279750388" expanded="true" signature="3800:3849" ph="SELECT * Fro... product_category" />
-            <marker date="1507279750388" expanded="true" signature="5217:5240" ph="..." />
-            <marker date="1507279750388" expanded="true" signature="6254:6456" ph="UPDATE produ... " />
-            <marker date="1507279750388" expanded="true" signature="6552:6601" ph="SELECT * Fro... product_category" />
-            <marker date="1507279750388" expanded="true" signature="7305:7423" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="7636:7754" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="8016:8128" ph="INSERT INTO product_category... " />
-            <marker date="1507279750388" expanded="true" signature="8523:8630" ph="DELETE FROM " />
-            <marker date="1507279750388" expanded="true" signature="9644:9698" ph="Delete from " />
+            <marker date="1507281278565" expanded="true" signature="1623:1662" ph="SELECT * Fro... product" />
+            <marker date="1507281278565" expanded="true" signature="1825:1847" ph="SELECT * Fro... category" />
+            <marker date="1507281278565" expanded="true" signature="1901:1946" ph="SELECT * Fro... product_image" />
+            <marker date="1507281278565" expanded="true" signature="3582:3631" ph="SELECT * Fro... product_category" />
+            <marker date="1507281278565" expanded="true" signature="4570:4593" ph="..." />
+            <marker date="1507281278565" expanded="true" signature="5449:5651" ph="UPDATE produ... " />
+            <marker date="1507281278565" expanded="true" signature="5742:5791" ph="SELECT * Fro... product_category" />
+            <marker date="1507281278565" expanded="true" signature="6369:6485" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="6640:6756" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="6967:7074" ph="INSERT INTO product_category... " />
+            <marker date="1507281278565" expanded="true" signature="7391:7496" ph="DELETE FROM " />
+            <marker date="1507281278565" expanded="true" signature="8453:8507" ph="Delete from " />
           </folding>
         </state>
       </provider>
@@ -845,16 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <marker date="1507277950382" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multiView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -865,7 +964,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/muledit_products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="918">
           <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
           <folding>
             <marker date="1507273716442" expanded="true" signature="499:542" ph="SELECT * FRO... product" />
@@ -874,37 +973,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catModify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding>
-            <marker date="1507277950087" expanded="true" signature="1681:1815" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1832" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1844" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:1866" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1681:3802" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1895:2445" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="1913:1970" ph="UPDATE clien... " />
-            <marker date="1507277950087" expanded="true" signature="2168:2250" ph="{...}" />
-            <marker date="1507277950087" expanded="true" signature="2259:2393" ph="{...}" />
-            <marker date="1507277950087" expanded="true" signature="2463:3158" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2592:2856" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2605:2715" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2728:2843" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2793:2822" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2883:3123" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="2910:3110" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="3194:3250" ph="Delete from " />
-            <marker date="1507277950087" expanded="true" signature="3305:3795" ph="..." />
-            <marker date="1507277950087" expanded="true" signature="3518:3590" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="1292">
           <caret line="76" column="74" lean-forward="false" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
           <folding>
             <element signature="e#2785#2791#0" expanded="true" />
@@ -912,19 +983,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/category.php">
+    <entry file="file://$PROJECT_DIR$/images.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="55" column="86" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="86" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="102" />
           <folding>
-            <marker date="1507277950104" expanded="true" signature="532:577" ph="SELECT * FRO... category" />
+            <marker date="1507277950265" expanded="true" signature="1804:1848" ph="DELETE FROM " />
+            <marker date="1507277950265" expanded="true" signature="1804:1849" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+          <folding>
+            <marker date="1507278889522" expanded="true" signature="245:318" ph="SELECT * FRO... CLIENT" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clientModify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="561">
           <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
             <marker date="1507277950171" expanded="true" signature="606:643" ph="SELECT * Fro... client" />
@@ -934,42 +1016,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images.php">
+    <entry file="file://$PROJECT_DIR$/category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="102" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="67" />
           <folding>
-            <marker date="1507277950265" expanded="true" signature="1804:1848" ph="DELETE FROM " />
-            <marker date="1507277950265" expanded="true" signature="1804:1849" ph="DELETE FROM " />
+            <marker date="1507277950104" expanded="true" signature="532:577" ph="SELECT * FRO... category" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single_product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        <state relative-caret-position="476">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
-            <marker date="1507279377307" expanded="true" signature="545:566" ph="select * fro... product" />
-            <marker date="1507279377307" expanded="true" signature="763:1501" ph="..." />
-            <marker date="1507279377307" expanded="true" signature="1154:1501" ph="{...}" />
-            <marker date="1507279377307" expanded="true" signature="3762:3808" ph="..." />
-            <marker date="1507279377307" expanded="true" signature="3762:3825" ph="{...}" />
-            <marker date="1507279377307" expanded="true" signature="3762:3828" ph="..." />
-            <marker date="1507279377307" expanded="true" signature="3762:3832" ph="..." />
-            <marker date="1507279377307" expanded="true" signature="3762:3836" ph="..." />
-            <marker date="1507279377307" expanded="true" signature="3762:3855" ph="..." />
-            <marker date="1507279377307" expanded="true" signature="3762:3867" ph="..." />
+            <marker date="1507281333010" expanded="true" signature="483:504" ph="select * fro... product" />
+            <marker date="1507281333010" expanded="true" signature="2216:2264" ph="select * fro... category" />
+            <marker date="1507281333010" expanded="true" signature="2432:2485" ph="select * fro... product_category" />
+            <marker date="1507281333010" expanded="true" signature="2915:2958" ph="select * fro... product" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/email.php">
+    <entry file="file://$PROJECT_DIR$/catModify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
-            <marker date="1507278889522" expanded="true" signature="245:318" ph="SELECT * FRO... CLIENT" />
+            <marker date="1507281344954" expanded="true" signature="609:650" ph="SELECT * Fro... category" />
+            <marker date="1507281344954" expanded="true" signature="1696:1830" ph="..." />
+            <marker date="1507281344954" expanded="true" signature="1928:1985" ph="UPDATE categ... " />
+            <marker date="1507281344954" expanded="true" signature="3209:3265" ph="Delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+          <folding>
+            <marker date="1507281353762" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
           </folding>
         </state>
       </provider>

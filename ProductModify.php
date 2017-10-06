@@ -331,7 +331,6 @@ if ($conn->query($query)) {
         break;
     }
 }
-    $result -> free_result();
 
     $conn->close();
 

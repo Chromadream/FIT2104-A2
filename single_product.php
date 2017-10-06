@@ -26,7 +26,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 
 
-
+<a href="index.html" ><button>Return to Main Page</button></a><br/>
 <center>
 <h3>Products</h3>
 <form>
