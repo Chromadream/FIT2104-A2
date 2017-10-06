@@ -14,7 +14,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 </head>
 
 <body>
-<a href="index.html" ><button>Return to Main Page</button></a>
+
 <?php
 	include("connection.php");
 	//$conn = new mysqli($Host, $UName, $PWord, $DB);
