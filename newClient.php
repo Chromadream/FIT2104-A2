@@ -1,6 +1,6 @@
 <?php
     ob_start();
-	
+	session_start();
 	if (!($_SESSION["access_status"] === "granted")) {
 		$page = "client.php";
 		header("location: login.php?Page=$page");

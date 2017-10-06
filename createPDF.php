@@ -39,7 +39,7 @@ class createPDF
 
         foreach($data as $row)
         {
-            if($rowcount%2==0)
+            if($rowCount%2==0)
             {
                 $table.='<tr valign="top" bgcolor="#c1d1db">';
             }
@@ -47,19 +47,19 @@ class createPDF
             {
                 $table.='<tr valign="top">';
             }
-            $table.="<td>".$row[client_id]."</td>";
-            $table.="<td>".$row[client_fname]." ".$row[client_lname]."</td>";
-            $table.="<td>".$row[client_street]."<br />".$row[client_suburb]." ".$row[client_state]."<br />".$row[client_pc]."</td>";
-            $table.="<td>".$row[client_email]."</td>";
-            $table.="<td>".$row[client_mobile]."</td>";
-            $table.="<td>".$row[client_mailinglist]."</td>";
+            $table.="<td>".$row["client_id"]."</td>";
+            $table.="<td>".$row["client_fname"]." ".$row["client_lname"]."</td>";
+            $table.="<td>".$row["client_street"]."<br />".$row["client_suburb"]." ".$row["client_state"]."<br />".$row["client_pc"]."</td>";
+            $table.="<td>".$row["client_email"]."</td>";
+            $table.="<td>".$row["client_mobile"]."</td>";
+            $table.="<td>".$row["client_mailinglist"]."</td>";
             $table.="</tr>";
             $rowCount++;
         }
         $table.="</table>";
         $PDF->writeHTML($table,true,true,true,true,'');
         $saveDir = dirname($_SERVER["SCRIPT_FILENAME"]).'/PDFS/';
-        if($pdf->Output($saveDir.'Clients.pdf','F'))
+        if($PDF->Output($saveDir.'Clients.pdf','F'))
         {
             return $table;
         }

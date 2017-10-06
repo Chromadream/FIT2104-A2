@@ -7,7 +7,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 ob_start();
 require "vendor/autoload.php";
 include("connection.php");
-include("clientPDF.php");
+include("createPDF.php");
 ?>
 
 <html>
@@ -18,19 +18,16 @@ include("clientPDF.php");
 <h1>Create PDF of Client List</h1>
 <?php
 $CONNECTION=new mysqli($HOST,$USERNAME,$PASSWORD,$DATABASE);
-$QUERY = "SELECT * FROM CLIENT ORDER BY client_lname";
+$QUERY = "SELECT * FROM CLIENT ORDER BY client_id";
 $RESULT = mysqli_query($CONNECTION,$QUERY);
 $rows = mysqli_fetch_all($RESULT,MYSQLI_ASSOC);
 
 $headers = array('Cust. ID','Name','Address','Email Address','Mobile Phone','Mailing List');
-$headerwidth = array(150,250,350,200,150,100);
+$headerwidth = array(50,200,200,200,150,100);
 
 $PDF = new CreatePDF();
 
-$table = $PDF->clientPDF($headers,$headerwidth,$rows);
-echo $table;
-echo "<br/>";
-echo "<a href='PDFS/Clients.pdf'>Click here to see PDF</a>";
-?>
+$table = $PDF->clientPDF($headers,$headerwidth,$rows)?>
+<a href='PDFS/Clients.pdf'><button>Click here to see PDF</button></a>
 </body>
 </html>
