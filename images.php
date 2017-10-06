@@ -40,6 +40,9 @@
         </table>
         <input type="submit" value="Delete images">
         </form>
+        <a href="index.html" ><button>Return to Main Page</button></a>
+        </body>
+        </html>
         <?php
     }
     else
@@ -48,6 +51,8 @@
         {
             if(unlink($imagedir.$filename))
             {
+                $query = "DELETE FROM product_image WHERE image_name = ".$filename;
+                $result = $CONNECTION->query($query);
                 echo("The file ".$filename." has been successfully deleted.<br/>");
             }
         }

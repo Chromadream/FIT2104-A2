@@ -13,7 +13,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 </head>
 
 <body>
-
+<h1>Famox Category Page</h1>
 <?php
 	include("connection.php");
 	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);

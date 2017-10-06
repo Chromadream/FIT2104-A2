@@ -9,11 +9,11 @@ if (!($_SESSION["access_status"] === "granted")) {
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>Famox Client List Page</title>
 </head>
 
 <body>
-
+<h1>Famox Client List</h1>
 <?php
 	include("connection.php");
 	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
@@ -63,5 +63,6 @@ if (!($_SESSION["access_status"] === "granted")) {
 <a href="newClient.php" ><button>New Client</button></a>
 <a href="email.php" ><button>New Email</button></a>
 <a href="clientPDF.php"><button>Generate PDF</button></a>
+<a href="index.html" ><button>Return to Main Page</button></a>
 </body>
 </html>
