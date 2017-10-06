@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catModify.php" afterPath="$PROJECT_DIR$/catModify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientModify.php" afterPath="$PROJECT_DIR$/clientModify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,17 +87,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="391">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catModify.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="catModify.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catModify.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -180,9 +179,9 @@
         <option value="$PROJECT_DIR$/project.php" />
         <option value="$PROJECT_DIR$/multiView.php" />
         <option value="$PROJECT_DIR$/muledit_products.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/clientModify.php" />
         <option value="$PROJECT_DIR$/catModify.php" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -357,12 +356,12 @@
       <workItem from="1507202532924" duration="8062000" />
       <workItem from="1507213392540" duration="242000" />
       <workItem from="1507257737431" duration="5694000" />
-      <workItem from="1507271963926" duration="2203000" />
+      <workItem from="1507271963926" duration="2505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29417000" />
+    <option name="totallyTimeSpent" value="29719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -839,14 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clientModify.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -869,6 +860,14 @@
             <marker date="1507274160519" expanded="true" signature="1857:1914" ph="UPDATE clien... " />
             <marker date="1507274160519" expanded="true" signature="3138:3194" ph="Delete from " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
