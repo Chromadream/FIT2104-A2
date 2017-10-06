@@ -10,7 +10,7 @@
 <html>
 
 <head><title></title></head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <script type="text/javascript">
 function validateForm1()
     {
@@ -89,33 +89,33 @@ case "Update":
 	
     ?>
     <form method="post" action="ProductModify.php?pid=<?php echo $_GET["pid"]; ?>&Action=ConfirmUpdate">
-        <center><h4>Product detail</h4><br/></center>
+        <center><h3>Product detail</h3><br/>
         <p/>
-        <table align="center" cellpadding="3">
+        <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
             <tr>
-                <td><b>Product ID</b></td>
+                <td class="listheader"><b>Product ID</b></td>
                 <td><?php echo $row["product_id"]; ?></td>
                 <input name="productId" type="hidden" value= <?php echo $row["product_id"]; ?>>
             </tr>
             <tr>
-                <td><b>Product Name</b></td>
+                <td class="listheader"><b>Product Name</b></td>
                 <td><input type="text" name="pname" size="30" value="<?php echo $row["product_name"]; ?>"></td>
             </tr>
             <tr>
-                <td><b>Purchase Price</b></td>
+                <td class="listheader"><b>Purchase Price</b></td>
                 <td><input type="text" name="pprice" size="30" value="<?php echo $row["product_purchase_price"]; ?>"></td>
             </tr>
             <tr>
-                <td><b>Sale Price</b></td>
+                <td class="listheader"><b>Sale Price</b></td>
                 <td><input type="text" name="sprice" size="40" value="<?php echo $row["product_sale_price"]; ?>"></td>
             </tr>
             <tr>
-                <td><b>Origin</b></td>
+                <td class="listheader"><b>Origin</b></td>
                 <td><input type="text" name="origin" size="10" value="<?php echo $row["product_country_of_origin"]; ?>"></td>
             </tr>
         </table>
         <br/>
-        
+        </center>
         <center>
         <h4> Category </h4>
         <table>
@@ -189,7 +189,7 @@ case "Update":
         <table align="center">
             <br/>
             <tr>
-                <td><input onclick="return validateForm1();" type="submit" value="Update product" class="btnSubmit"></td>
+                <td><input onclick="return validateForm1();" type="submit" value="Update product"></td>
                 <td><input type="button" value="Return to list" OnClick="window.location='single_product.php'"></td>
                 <td><button><a href="file_upload.php?pid= <?php echo $row["product_id"]; ?>">Upload File</a></button></td>
             </tr>
@@ -283,17 +283,18 @@ case "ConfirmUpdate": {
 case "Delete": {
     ?>
 
-    <center>Confirm deletion of the following product record<br/></center><p/>
-    <table align="center" cellpadding="3">
+    <center>Confirm deletion of the following product record<br/><p/>
+    <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
         <tr>
-            <td><b>Product ID</b></td>
+            <td class="listheader"><b>Product ID</b></td>
             <td><?php echo $row["product_id"]; ?></td>
         </tr>
         <tr>
-            <td><b>Product Name</b></td>
+            <td class="listheader"><b>Product Name</b></td>
             <td><?php echo $row["product_name"]; ?> </td>
         </tr>
     </table>
+    </center>
     <table align="center">
         <br/>
         <tr>

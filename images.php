@@ -13,13 +13,15 @@
         <html>
         <head>
         <title>Famox Images Manage Page</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
         </head>
         <body>
         <a href="index.html" ><button>Return to Main Page</button></a>
-        <h1>Famox Images Manage Page</h1>
+        <center>
+        <h3>Famox Images Manage Page</h3>
         <form action="images.php" method="post">
-        <table>
-        <tr>
+        <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
+        <tr class="listheader">
         <th>Filename</th>
         <th>Product</th>
         <th>Delete</th>
@@ -42,6 +44,7 @@
         </table>
         <input type="submit" value="Delete images">
         </form>
+        </center>
         <?php
     }
     else

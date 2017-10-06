@@ -9,7 +9,7 @@
 ?>
 <html>
 <head><title></title></head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <title>Project Modify</title>
 <body>
 <script language="JavaScript">
@@ -37,22 +37,22 @@ case "Update":
     <form method="post" action="projectModify.php?pid=<?php echo $row["project_id"];?>&Action=ConfirmUpdate">
         <center>Project detail<br/></center>
         <p/>
-        <table align="center" cellpadding="3">
+        <table align="center" border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
             <tr>
-                <td><b>Project ID</b></td>
+                <td class="listheader"><b>Project ID</b></td>
                 <td><?php echo $row["project_id"]; ?></td>
                 <input name="projectId" type="hidden" value= <?php echo $row["project_id"]; ?>>
             </tr>
             <tr>
-                <td><b>Project Description</b></td>
+                <td class="listheader"><b>Project Description</b></td>
                 <td><input type="text" name="pdesc" size="30" value="<?php echo $row["project_desc"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Project Country</b></td>
+                <td class="listheader"><b>Project Country</b></td>
                 <td><input type="text" name="pcountry" size="30" value="<?php echo $row["project_country"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Project City</b></td>
+                <td class="listheader"><b>Project City</b></td>
                 <td><input type="text" name="pcity" size="30" value="<?php echo $row["project_city"]; ?>" required></td>
             </tr>
         </table>
@@ -61,7 +61,7 @@ case "Update":
         <table align="center">
             <br/>
             <tr>
-                <td><input type="submit" value="Update product" class="btnSubmit"></td>
+                <td><input type="submit" value="Update product"></td>
                 <td><input type="button" value="Return to list" OnClick="window.location='project.php'"></td>
             </tr>
         </table>
@@ -94,13 +94,13 @@ case "Delete": {
     ?>
 
     <center>Confirm deletion of the following product record<br/></center><p/>
-    <table align="center" cellpadding="3">
+    <table align="center" border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
         <tr>
-            <td><b>Project ID</b></td>
+            <td class="listheader"><b>Project ID</b></td>
             <td><?php echo $row["project_id"]; ?></td>
         </tr>
         <tr>
-            <td><b>Project Description</b></td>
+            <td class="listheader"><b>Project Description</b></td>
             <td><?php echo $row["project_desc"]; ?> </td>
         </tr>
     </table>

@@ -9,8 +9,8 @@
 ?>
 <html>
 
-<head><title></title></head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<head><title>Client Modify</title></head>
+<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 <script language="JavaScript">
     function confirm_delete()
@@ -36,46 +36,46 @@ case "Update":
     <form method="post" action="clientModify.php?pid=<?php echo $row["client_id"];?>&Action=ConfirmUpdate">
         <center>Client detail<br/></center>
         <p/>
-        <table align="center" cellpadding="3">
+        <table align="center" border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
             <tr>
-                <td><b>Client ID</b></td>
+                <td class="listheader"><b>Client ID</b></td>
                 <td><?php echo $row["client_id"]; ?></td>
                 <input name="clientId" type="hidden" value= <?php echo $row["client_id"]; ?>>
             </tr>
             <tr>
-                <td><b>First Name</b></td>
+                <td class="listheader"><b>First Name</b></td>
                 <td><input type="text" name="fname" size="30" value="<?php echo $row["client_fname"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Last Name</b></td>
+                <td class="listheader"><b>Last Name</b></td>
                 <td><input type="text" name="lname" size="30" value="<?php echo $row["client_lname"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Address</b></td>
+                <td class="listheader"><b>Address</b></td>
                 <td><input type="text" name="addr" size="30" value="<?php echo $row["client_street"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Suburbs</b></td>
+                <td class="listheader"><b>Suburbs</b></td>
                 <td><input type="text" name="suburb" size="30" value="<?php echo $row["client_suburb"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>State</b></td>
+                <td class="listheader"><b>State</b></td>
                 <td><input type="text" name="state" size="30" value="<?php echo $row["client_state"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Postcode</b></td>
+                <td class="listheader"><b>Postcode</b></td>
                 <td><input type="text" name="pcode" size="30" value="<?php echo $row["client_pc"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Email</b></td>
+                <td class="listheader"><b>Email</b></td>
                 <td><input type="email" name="email" size="30" value="<?php echo $row["client_email"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Mobile Number</b></td>
+                <td class="listheader"><b>Mobile Number</b></td>
                 <td><input type="number" name="mobile" size="30" value="<?php echo $row["client_mobile"]; ?>" required></td>
             </tr>
             <tr>
-                <td><b>Mailing List</b></td>
+                <td class="listheader"><b>Mailing List</b></td>
                 <td><input type="checkbox" name="mail[]" size="30" <?php if ($row["client_mailinglist"]=="Y") echo 'checked';?>></td>
             </tr>
         </table>
@@ -84,7 +84,7 @@ case "Update":
         <table align="center">
             <br/>
             <tr>
-                <td><input type="submit" value="Update product" class="btnSubmit"></td>
+                <td><input type="submit" value="Update product" ></td>
                 <td><input type="button" value="Return to list" OnClick="window.location='client.php'"></td>
             </tr>
         </table>
@@ -128,13 +128,13 @@ case "Delete": {
     ?>
 
     <center>Confirm deletion of the following product record<br/></center><p/>
-    <table align="center" cellpadding="3">
+    <table align="center" border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
         <tr>
-            <td><b>Client ID</b></td>
+            <td class="listheader"><b>Client ID</b></td>
             <td><?php echo $row["client_id"]; ?></td>
         </tr>
         <tr>
-            <td><b>Client Name</b></td>
+            <td class="listheader"><b>Client Name</b></td>
             <td><?php echo $row["client_fname"]." ".$row["client_lname"]; ?> </td>
         </tr>
     </table>

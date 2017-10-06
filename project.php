@@ -44,10 +44,10 @@ if (!($_SESSION["access_status"] === "granted")) {
        <td><?php echo $row["project_city"]; ?> </td>
 
        <td>
-       	<a href="projectModify.php?pid=<?php echo $row["client_id"]; ?> &Action=Delete">Delete</a>
+       	<a href="projectModify.php?pid=<?php echo $row["project_id"]; ?> &Action=Delete">Delete</a>
         </td>
         <td>
-			<a href="projectModify.php?pid=<?php echo $row["client_id"]; ?>
+			<a href="projectModify.php?pid=<?php echo $row["project_id"]; ?>
 &Action=Update">Update</a>
 		</td>
     </tr>

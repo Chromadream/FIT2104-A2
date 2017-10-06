@@ -7,25 +7,26 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 <html>
 <head><title>New Product Form</title></head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 <form method="post" action="newProject.php">
-    <center><h3>Project detail</h3><br/></center>
+    <center><h3>Project detail</h3><br/>
     <p/>
-    <table align="center" cellpadding="3">
+    <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
         <tr>
-            <td><b>Project Description</b></td>
+            <td class="listheader"><b>Project Description</b></td>
             <td><input type="text" name="pdesc" size="30" value="" required></td>
         </tr>
         <tr>
-            <td><b>Project Country</b></td>
+            <td class="listheader"><b>Project Country</b></td>
             <td><input type="text" name="pcountry" size="30" value="" required></td>
         </tr>
         <tr>
-            <td><b>Project City</b></td>
+            <td class="listheader"><b>Project City</b></td>
             <td><input type="text" name="pcity" size="30" value="" required></td>
         </tr>
     </table>
+    </center>
     <br/>
     <table align="center">
         <br/>

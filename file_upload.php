@@ -14,24 +14,27 @@
 ?>   
 <html> 
 <head> 
-    <title>PHP Upload File</title> 
+    <title>Upload Image File</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head> 
 <body> 
-    <h1>PHP File Upload</h1> 
+    <center><h3>Image File Upload</h3> </center>
 
 <?php 
     if (!isset($_FILES["userfile"]["tmp_name"])) 
     { 
 ?> 
         <form method="post" enctype="multipart/form-data" action="file_upload.php"> 
-            <table border="0"> 
+        <center>
+            <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm"> 
             <tr> 
                 <td><input name="productId" type="hidden" value= <?php echo $_GET["pid"]; ?>> <b>Select a file to upload:</b><br><input type="file" size="50" name="userfile"></td> 
             </tr> 
             <tr> 
                 <td><input type="submit" value="Upload File"></td> 
             </tr> 
-            </table> 
+            </table>
+            </center>
         </form> 
 <?php 
     } 

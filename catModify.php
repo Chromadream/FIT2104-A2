@@ -10,7 +10,7 @@
 <html>
 
 <head><title></title></head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 <script language="JavaScript">
     function confirm_delete()
@@ -19,7 +19,7 @@
 
     }
 </script>
-<center><h3>Client Edit</h3></center>
+<center><h3>Category Edit</h3></center>
 <?php
 include("connection.php");
 $conn = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DATABASE);
@@ -33,11 +33,11 @@ switch ($strAction)
 {
 case "Update":
     ?>
-    <form method="post" action="catModify.php.php?pid=<?php echo $row["client_id"];?>&Action=ConfirmUpdate">
-        <center>Client detail<br/></center>
+    <form method="post" action="catModify.php?pid=<?php echo $row["client_id"];?>&Action=ConfirmUpdate">
+        <center>Client detail<br/>
         <p/>
-        <table align="center" cellpadding="3">
-            <tr>
+        <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
+            <tr class="listheader">
                 <td><b>Category ID</b></td>
                 <td><?php echo $row["category_id"]; ?></td>
                 <input name="catID" type="hidden" value= <?php echo $row["category_id"]; ?>>
@@ -48,12 +48,13 @@ case "Update":
             </tr>
 
         </table>
+        </center>
         <br/>
         
         <table align="center">
             <br/>
             <tr>
-                <td><input type="submit" value="Update product" class="btnSubmit"></td>
+                <td><input type="submit" value="Update category" ></td>
                 <td><input type="button" value="Return to list" OnClick="window.location='category.php'"></td>
             </tr>
         </table>

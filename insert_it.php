@@ -7,26 +7,26 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 <html>
 <head><title></title></head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 <form method="post" action="insert.php">
-    <center>Product detail<br/></center>
+    <center><h3>Product detail</h3><br/>
     <p/>
-    <table align="center" cellpadding="3">
+    <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
         <tr>
-            <td><b>Product Name</b></td>
+            <td class="listheader"><b>Product Name</b></td>
             <td><input type="text" name="pname" size="30" value=""></td>
         </tr>
         <tr>
-            <td><b>Purchase Price</b></td>
+            <td class="listheader"><b>Purchase Price</b></td>
             <td><input type="text" name="pprice" size="30" value=""></td>
         </tr>
         <tr>
-            <td><b>Sale Price</b></td>
+            <td class="listheader"><b>Sale Price</b></td>
             <td><input type="text" name="sprice" size="40" value=""></td>
         </tr>
         <tr>
-            <td><b>Origin</b></td>
+            <td class="listheader"><b>Origin</b></td>
             <td><input type="text" name="origin" size="10" value=""></td>
         </tr>
     </table>
@@ -38,6 +38,7 @@ if (!($_SESSION["access_status"] === "granted")) {
             <td><input type="button" value="return to list" OnClick="window.location='single_product.php'"></td>
         </tr>
     </table>
+    </center>
 </form>
 
 </body>

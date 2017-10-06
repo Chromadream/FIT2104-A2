@@ -9,12 +9,13 @@ if (!($_SESSION["access_status"] === "granted")) {
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <title>Famox Client List Page</title>
 </head>
 
 <body>
 <a href="index.html" ><button>Return to Main Page</button></a><br/>
-<h1>Famox Client List</h1>
+<center><h3>Famox Client List</h3></center>
 <?php
 	include("connection.php");
 	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
@@ -22,8 +23,9 @@ if (!($_SESSION["access_status"] === "granted")) {
     $result = $conn->query($query);
 	
 ?>
-<table border= "1px solid black">
-	<tr>
+<center>
+<table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
+	<tr class="listheader">
        <td><?php echo "Name" ?> </td>
        <td><?php echo "Address" ?> </td>
        <td><?php echo "Suburb" ?> </td>
@@ -64,6 +66,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 <a href="email.php" ><button>New Email</button></a>
 <a href="clientPDF.php"><button>Generate PDF</button></a>
 <br/>
+</center>
 <a href="multiView.php?page=client"><img src="images/Assignment2-Image-001.jpg"></a>
 </body>
 </html>

@@ -10,11 +10,13 @@ if (!($_SESSION["access_status"] === "granted")) {
 <head>
 <meta charset="UTF-8">
 <title>Famox Category Page</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
 <a href="index.html" ><button>Return to Main Page</button></a><br/>
-<h1>Famox Category Page</h1>
+<center>
+<h3>Famox Category Page</h3>
 <?php
 	include("connection.php");
 	$conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
@@ -22,8 +24,8 @@ if (!($_SESSION["access_status"] === "granted")) {
     $result = $conn->query($query);
 	
 ?>
-<table border= "1px solid black">
-	<tr>
+<table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
+	<tr class="listheader">
        <td><?php echo "Category ID" ?> </td>
         <td><?php echo "Category Name" ?> </td>
     </tr>
@@ -52,5 +54,6 @@ if (!($_SESSION["access_status"] === "granted")) {
 <a href="newCat_form.php" ><button>New Category</button></a>
 <br/>
 <a href="multiView.php?page=category"><img src="images/Assignment2-Image-002.jpg"></a>
+</center>
 </body>
 </html>

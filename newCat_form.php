@@ -7,14 +7,14 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 <html>
 <head><title>New Client Form</title></head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 <form method="post" action="newCat.php">
-    <center>Client detail<br/></center>
+    <center><h3>Client detail</h3><br/>
     <p/>
-    <table align="center" cellpadding="3">
+    <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
         <tr>
-            <td><b>Category Name</b></td>
+            <td class="listheader"><b>Category Name</b></td>
             <td><input type="text" name="catname" size="30" value="" required></td>
         </tr>
     </table>
@@ -26,6 +26,7 @@ if (!($_SESSION["access_status"] === "granted")) {
             <td><input type="button" value="return to list" OnClick="window.location='category.php'"></td>
         </tr>
     </table>
+    </center>
 </form>
 
 </body>

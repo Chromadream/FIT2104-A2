@@ -14,12 +14,15 @@ if(empty($_POST["check"])){
     <html>
     <head>
         <title>Famox Mailing List Page</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
-    <h1>New Email</h1>
+    <a href="index.html" ><button>Return to Main Page</button></a><br/>
+    <center>
+    <h3>New Email</h3>
     <form method="post" action="email.php">
-        <table border="1" cellpadding="5">
-            <tr>
+        <table border="0" cellpadding="10" cellspacing="1" width="500" class="tblListForm">
+            <tr class="listheader">
                 <th>Client Name</th>
                 <th>Client Email</th>
                 <th>Email?</th>
@@ -37,10 +40,11 @@ if(empty($_POST["check"])){
             }
             ?>
         </table>
-        <input type="text" name="subject" placeholder="Message subject"><br />
-        <input type="text" name="message" placeholder="Message body"><br />
+        <input type="text" name="subject" placeholder="Message subject" style="width: 500px;"><br />
+        <input type="text" name="message" placeholder="Message body" style="width: 500px; height: 300px;"><br />
         <input type="submit" value="Send email">
     </form>
+    </center>
     </body>
     </html>
 <?php
