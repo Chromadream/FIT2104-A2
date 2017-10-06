@@ -38,7 +38,7 @@ function validateForm1()
 		}
 		
 		
-		if (!(sprice[0].value ==="") && !(pprice[0].value ==="") && sprice[0].value<pprice[0].value){
+		if (!(sprice[0].value ==="") && !(pprice[0].value ==="") && Number(sprice[0].value)<Number(pprice[0].value)){
 			message2="Sale price is less than purchase price";
 			checkv=false;
 		}
