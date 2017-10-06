@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email.php" afterPath="$PROJECT_DIR$/email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/end_session.php" afterPath="$PROJECT_DIR$/end_session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newClient.php" afterPath="$PROJECT_DIR$/newClient.php" />
-    </list>
+    <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/email.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -129,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="images.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="images.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/images.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
@@ -342,12 +338,12 @@
       <workItem from="1507170069096" duration="1770000" />
       <workItem from="1507202532924" duration="8062000" />
       <workItem from="1507213392540" duration="242000" />
-      <workItem from="1507257737431" duration="5078000" />
+      <workItem from="1507257737431" duration="5694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26598000" />
+    <option name="totallyTimeSpent" value="27214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -755,18 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="15" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-          <folding>
-            <marker date="1507259429955" expanded="true" signature="822:930" ph="SELECT p.pro... PRODUCT_IMAGE" />
-            <marker date="1507259429955" expanded="true" signature="1596:1640" ph="DELETE FROM " />
-            <marker date="1507259429955" expanded="true" signature="1596:1641" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -827,6 +811,18 @@
           <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
           <folding>
             <marker date="1507263010470" expanded="true" signature="245:318" ph="SELECT * FRO... CLIENT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="15" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <folding>
+            <marker date="1507259429955" expanded="true" signature="822:930" ph="SELECT p.pro... PRODUCT_IMAGE" />
+            <marker date="1507259429955" expanded="true" signature="1596:1640" ph="DELETE FROM " />
+            <marker date="1507259429955" expanded="true" signature="1596:1641" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
