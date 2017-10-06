@@ -58,6 +58,7 @@
                 echo("The file ".$filename." has been successfully deleted.<br/>");
             }
         }
+        echo("<a href='index.html'><button>Return to main page</button></a>");
     }
 ?>
         <a href="displayFile.php?filename=images.php"><img src="images/Assignment2-Image-007.jpg"></a>

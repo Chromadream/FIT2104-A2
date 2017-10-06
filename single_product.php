@@ -14,7 +14,7 @@ if (!($_SESSION["access_status"] === "granted")) {
 </head>
 
 <body>
-
+<a href="index.html" ><button>Return to Main Page</button></a><br/>
 <?php
 	include("connection.php");
 	//$conn = new mysqli($Host, $UName, $PWord, $DB);
@@ -26,9 +26,10 @@ if (!($_SESSION["access_status"] === "granted")) {
 ?>
 
 
-<a href="index.html" ><button>Return to Main Page</button></a><br/>
+
 <center>
 <h3>Products</h3>
+
 <form>
   <input type="text" name="search" placeholder="Search..">
 </form>
