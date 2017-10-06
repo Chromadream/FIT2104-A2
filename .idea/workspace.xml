@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24600d8-55ff-492f-a5eb-f9e626c30fd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category.php" afterPath="$PROJECT_DIR$/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.php" afterPath="$PROJECT_DIR$/client.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images.php" afterPath="$PROJECT_DIR$/images.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Assignment2-Image-006.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muledit_products.php" afterPath="$PROJECT_DIR$/muledit_products.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiView.php" afterPath="$PROJECT_DIR$/multiView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.php" afterPath="$PROJECT_DIR$/project.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,18 +35,8 @@
             <state relative-caret-position="472">
               <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
-                <marker date="1507273034295" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
+                <marker date="1507273305776" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newClient_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newClient_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="17" column="75" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="75" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +47,7 @@
             <state relative-caret-position="472">
               <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="66" selection-end-column="84" />
               <folding>
-                <marker date="1507272970094" expanded="true" signature="462:504" ph="SELECT * FRO... CLIENT" />
+                <marker date="1507273305794" expanded="true" signature="462:504" ph="SELECT * FRO... CLIENT" />
               </folding>
             </state>
           </provider>
@@ -105,20 +92,33 @@
       <file leaf-file-name="multiView.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="13" column="80" lean-forward="false" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="muledit_products.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/muledit_products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+              <folding>
+                <marker date="1507273716442" expanded="true" signature="499:542" ph="SELECT * FRO... product" />
+                <marker date="1507273716442" expanded="true" signature="1876:2064" ph="UPDATE produ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+            <state relative-caret-position="-4">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
-                <marker date="1507273283610" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
+                <marker date="1507273305824" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
               </folding>
             </state>
           </provider>
@@ -128,11 +128,11 @@
         <entry file="file://$PROJECT_DIR$/images.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
-              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="102" />
+              <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="102" />
               <folding>
-                <marker date="1507272243154" expanded="true" signature="935:1043" ph="SELECT p.pro... PRODUCT_IMAGE" />
-                <marker date="1507272243154" expanded="true" signature="1606:1650" ph="DELETE FROM " />
-                <marker date="1507272243154" expanded="true" signature="1606:1651" ph="DELETE FROM " />
+                <marker date="1507273305815" expanded="true" signature="935:1043" ph="SELECT p.pro... PRODUCT_IMAGE" />
+                <marker date="1507273305815" expanded="true" signature="1606:1650" ph="DELETE FROM " />
+                <marker date="1507273305815" expanded="true" signature="1606:1651" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -172,10 +172,11 @@
         <option value="$PROJECT_DIR$/email.php" />
         <option value="$PROJECT_DIR$/images.php" />
         <option value="$PROJECT_DIR$/projectModify.php" />
-        <option value="$PROJECT_DIR$/multiView.php" />
         <option value="$PROJECT_DIR$/client.php" />
         <option value="$PROJECT_DIR$/category.php" />
         <option value="$PROJECT_DIR$/project.php" />
+        <option value="$PROJECT_DIR$/multiView.php" />
+        <option value="$PROJECT_DIR$/muledit_products.php" />
       </list>
     </option>
   </component>
@@ -350,12 +351,12 @@
       <workItem from="1507202532924" duration="8062000" />
       <workItem from="1507213392540" duration="242000" />
       <workItem from="1507257737431" duration="5694000" />
-      <workItem from="1507271963926" duration="1327000" />
+      <workItem from="1507271963926" duration="1761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28541000" />
+    <option name="totallyTimeSpent" value="28975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -393,18 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="15" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-          <folding>
-            <marker date="1507272243154" expanded="true" signature="935:1043" ph="SELECT p.pro... PRODUCT_IMAGE" />
-            <marker date="1507272243154" expanded="true" signature="1606:1650" ph="DELETE FROM " />
-            <marker date="1507272243154" expanded="true" signature="1606:1651" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -418,7 +407,7 @@
         <state relative-caret-position="782">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <marker date="1507273034295" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
+            <marker date="1507273305776" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
           </folding>
         </state>
       </provider>
@@ -490,7 +479,7 @@
         <state relative-caret-position="782">
           <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <marker date="1507273034295" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
+            <marker date="1507273305776" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
           </folding>
         </state>
       </provider>
@@ -615,9 +604,9 @@
         <state relative-caret-position="68">
           <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
-            <marker date="1507272243154" expanded="true" signature="935:1043" ph="SELECT p.pro... PRODUCT_IMAGE" />
-            <marker date="1507272243154" expanded="true" signature="1606:1650" ph="DELETE FROM " />
-            <marker date="1507272243154" expanded="true" signature="1606:1651" ph="DELETE FROM " />
+            <marker date="1507273305815" expanded="true" signature="935:1043" ph="SELECT p.pro... PRODUCT_IMAGE" />
+            <marker date="1507273305815" expanded="true" signature="1606:1650" ph="DELETE FROM " />
+            <marker date="1507273305815" expanded="true" signature="1606:1651" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -796,24 +785,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="102" />
-          <folding>
-            <marker date="1507272243154" expanded="true" signature="935:1043" ph="SELECT p.pro... PRODUCT_IMAGE" />
-            <marker date="1507272243154" expanded="true" signature="1606:1650" ph="DELETE FROM " />
-            <marker date="1507272243154" expanded="true" signature="1606:1651" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="66" selection-end-column="84" />
           <folding>
-            <marker date="1507272970094" expanded="true" signature="462:504" ph="SELECT * FRO... CLIENT" />
+            <marker date="1507273305794" expanded="true" signature="462:504" ph="SELECT * FRO... CLIENT" />
           </folding>
         </state>
       </provider>
@@ -843,25 +820,48 @@
         <state relative-caret-position="472">
           <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
-            <marker date="1507273034295" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
+            <marker date="1507273305776" expanded="true" signature="463:508" ph="SELECT * FRO... category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <marker date="1507273305824" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multiView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="13" column="80" lean-forward="false" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.php">
+    <entry file="file://$PROJECT_DIR$/images.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="421">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="102" />
           <folding>
-            <marker date="1507273283610" expanded="true" signature="419:460" ph="SELECT * FRO... project" />
+            <marker date="1507273305815" expanded="true" signature="935:1043" ph="SELECT p.pro... PRODUCT_IMAGE" />
+            <marker date="1507273305815" expanded="true" signature="1606:1650" ph="DELETE FROM " />
+            <marker date="1507273305815" expanded="true" signature="1606:1651" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muledit_products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+          <folding>
+            <marker date="1507273716442" expanded="true" signature="499:542" ph="SELECT * FRO... product" />
+            <marker date="1507273716442" expanded="true" signature="1876:2064" ph="UPDATE produ... " />
           </folding>
         </state>
       </provider>

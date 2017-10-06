@@ -23,9 +23,9 @@ switch ($MACRO) {
         $name = "Category Page";
         break;
 }
-echo "Source code for $name";
+echo "<h1>Source code for $name</h1>";
 foreach($PAGELIST as $page){
-    echo "$page";
+    echo "<br/><h3>$page</h3><br/>";
     show_source($page);
 }
 ?>

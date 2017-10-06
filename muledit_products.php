@@ -48,6 +48,7 @@ if(empty($_POST["products"]))
     <input type="submit" name="update" value="Update Multiple Rows" /> 
     </form>
     </div>
+    <a href="displayFile.php?filename=muledit_products.php"><img src="images/Assignment2-Image-004.jpg"></a>
 	</body>
 <?php
 }
